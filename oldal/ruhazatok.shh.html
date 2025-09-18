@@ -4,365 +4,190 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ruházat</title>
-    <link rel="stylesheet" href="x">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   </head>
-  <body class="idk">
+  <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="fociwebshop.html"> <i class="bi bi-basket2"></i> Football Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="fociwebshop.html">Főoldal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Vásárlási Feltételek</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  kategóriák
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="Labdák.html">Labdák</a></li>
-                  <li><a class="dropdown-item" href="Cipők.html">Cipők</a></li>
-                  <li><a class="dropdown-item" href="ruhazatok.html">Ruházatok</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-             
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Keresés">
-              <button class="btn btn-outline-info" type="submit">Keresés</button>
-            </form>
+      <div class="container">
+        <a class="navbar-brand" href="fociwebshop.html"> <i class="bi bi-basket2"></i> Football Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="fociwebshop.html">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vásárlási Feltételek</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kategóriák
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Labdák.html">Labdák</a></li>
+                <li><a class="dropdown-item" href="Cipők.html">Cipők</a></li>
+                <li><a class="dropdown-item" href="ruhazatok.html">Ruházatok</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Keresés">
+            <button class="btn btn-outline-info" type="submit">Keresés</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-5">
+          <h1 class="text-bg-secondary p-3 mb-4 border border-4">Üdvözöljük a Ruha Részlegen!</h1>
+          <ul class="border border-4"> 
+            <li class="fs-5">Kényelmesen otthonából rendelheti meg webáruházunkban az Önnek legmegfelelőbb készülékeket.</li>
+            <li class="fs-5">Termékeink mindegyike magyarországi szervízzel rendelkezik.</li>
+            <li class="fs-5">A megrendelt készüléket akár már másnap kézhez veheti.</li>
+            <li class="fs-5">Az áruházban megtalálható termékek nagy része raktárról kerül kiküldésre.</li>
+            <li class="fs-5">Minden beérkezett megrendelést emailban visszaigazolunk.</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7 mt-3 mt-lg-0">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="kiemelttermékek/mbappemez.jpg" class="d-block w-100 img-fluid border border-4" alt="Kapu">
+              </div>
+              <div class="carousel-item">
+                <img src="focicuccli/foci.shshs.jpg" class="d-block w-100 img-fluid border border-4" alt="Labda">
+              </div>
+              <div class="carousel-item">
+                <img src="kiemelttermékek/focimezgyerek.jpg" class="d-block w-100 img-fluid border border-4" alt="Stopli">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-      </nav>
-
-      <div class="container">
-          <div class="row my-5" >
-              <div class="col-lg-5">
-                  <h1 class="text-bg-secondary p-3 mb-4 border border-4">Üdvözöljük a Ruha Részlegen!</h1>
-                  <br>
-                  
-                      <ul class="border border-4"> 
-
-                      <li class="fs-5">Kényelmesen otthonából rendelheti meg webáruházunkban az Önnek legmegfelelőbb készülékeket.</li>
-                      <li class="fs-5">Termékeink mindegyike magyarországi szervízzel rendelkezik.</li>
-                      <li class="fs-5">A megrendelt készüléket akár már másnap kézhez veheti.</li>
-                      <li class="fs-5">Az áruházban megtalálható termékek nagy része raktárról kerül kiküldésre.</li>
-                      <li class="fs-5">Minden beérkezett megrendelést emailban vissza igazolunk.</li>
-                          
-                     </ul>
-                  
-              </div>
-
-              <div class="col-lg-7 mt-3 mt-lg-0">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="kiemelttermékek/mbappemez.jpg" class="d-block w-100 border border-4" alt="Kapu">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="focicuccli/foci.shshs.jpg" class="d-block w-100 border border-4" alt="Labda">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="kiemelttermékek/focimezgyerek.jpg" class="d-block w-100 border border-4" alt=Stopli>
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                  </div>
-                </div>
-
-          <div class="row">
-              <div class="col">
-                  <h2 class="display-3 text-info mb-4"><span class="border border-4">Top Termékek</span></h2>
-                  <br>
-              </div>
-              <div class="row">
-                <div class="col-sm mb-4 mb-sm-0">
-                  <div class="card h-100">
-                    <a href="#"><img src="https://cdn.aboutstatic.com/file/images/b420d71123bc0fa03bdcb37ce2114d9d.png" class="card-img-top" alt="nikesportacademy"></a>
-                    <div class="card-body">
-                      <h3 class="h3 mb-3 card-title lh-base">Tengerészkék NIKE Sportnadrágok <br> 'Academy'</h3>
-                      <div class="row align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-6">
-                          <a href="#" class="btn btn-primary">Megnézem</a>
-                        </div>
-                        <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                          5.752 Ft <span class="text-decoration-line-through" style="color: grey;">7.190 Ft</span>
-                        </div>
-                      </div>
-                      
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm mb-4 mb-sm-0">
-                  <div class="card h-100">
-                    <a href="#"><img src="https://cdn.aboutstatic.com/file/images/484ffbedc96dd7d0ceda062b6583b4a9.jpg?brightness=0.96&quality=75&trim=1&use_accept_header=1&height=1067&width=800" class="card-img-top" alt="sípcsontvédő"></a>
-                    <div class="card-body">
-                      <h3 class="h3 mb-3 card-title lh-base">Funktionsshirt <br> FC Barcelona 21-22 3rd'</h3>
-                      <div class="row align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-6">
-                          <a href="#" class="btn btn-primary">Megnézem</a>
-                        </div>
-                        <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                          11.992 Ft <span class="text-decoration-line-through" style="color: grey;">14.990 Ft</span>
-                        </div>
-                      </div>
-                      
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm mb-4 mb-sm-0">
-                  <div class="card h-100">
-                    <a href="#"><img src="kiemelttermékek/arsenal.jpg" class="card-img-top" alt="mez"></a>
-                    <div class="card-body">
-                      <h3 class="h3 mb-3 card-title lh-base">Adidas Focimez, <br> short  REAL H JSY <br> Arsenal férfi</h3>
-                      <div class="row align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-6">
-                          <a href="#" class="btn btn-primary">Megnézem</a>
-                        </div>
-                        <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                          13.990 Ft <span class="text-decoration-line-through" style="color: grey;">27.990 Ft</span>                            
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-         <div class="row mb-5 mb-5 mt-5">
-            <video controls class="img-fluid">
-                <source src="focicuccli/Foci_cipo_tortenelemora.mp4" type="video/mp4"></video> 
-          </div>  
-          <!-- <div class="col"> --> 
-            <!-- <img src="focicuccli/kééééép.webp" class="img-fluid" alt="..."> -->
-          <!-- </div> -->
-
-          <div class="row">
-            <div class="col">
-              <br>
-                <h2 class="display-3 text-info mb-4"><span class="border border-4">Kiemelt Termékek</span></h2>
-                <br>
-            </div>
-            <div class="row m">
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                 <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/szettt.jpg" class="card-img-top" alt="szettt"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">ADIDAS CAMPEON19 NŐI FOCIMEZ (DP3690)</h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        23 750 Ft
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="card-footer text-muted">
-                    <a href="#" class="text-decoration-none text-secondary small">Football</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/fifalabda.webp" class="card-img-top" alt="Puma stopli"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Puma Labda Fifa FC 20/21 hazai mez Labda termékek </h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        26 700 Ft
-                      </div>
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="text-decoration-none text-secondary small">Football</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/city.png" class="card-img-top" alt="citymez"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Puma Manchester City FC <br>20/21 hazai mez,</h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        28 890 Ft
-                      </div>
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="text-decoration-none text-secondary small">Mez</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/vs_Botitol_47.png" class="card-img-top" alt="mol fehérvár Mez"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Mol Fehérvár FC hazai <br> Hazai Mez</h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        32 950 Ft
-                      </div>
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="text-decoration-none text-secondary small">Mez</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col">
-              <br>
-                <h2 class="display-3 text-info mb-4"><span class="border border-4">Eladási számok</span></h2>
-                <br>
-            </div>
-          <br>
-          <table class="table table-hover table-secondary text-center">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">Termék neve</th>
-                <th scope="col">Ár</th>
-                <th scope="col">Eladási szám</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>NIKE Sportnadrágok</td>
-                <td>17 990 Ft</td>
-                <td>27.900</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Arsenal Mez</td>
-                <td>16 500 Ft</td>
-                <td>39.400</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Fehérvár Mez</td>
-                <td>21 300 Ft</td>
-                <td>70.900</td>
-              </tr>
-            </tbody>
-          </table>
-          <br>
-
-          <div class="row mt-3">
-            <div class="col">
-              <br>
-                <h2 class="display-3 text-info mb-4"><span class="border border-4">Információk</span></h2>
-                <br>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                   <div class="bg-light rounded text-center p-3 h-100">
-                      <i class="bi bi-truck fs-1 text-info"></i>
-                      <p class="h5 mt-2 mb-4">Szállítási Feltételek </p>
-                      <a href="#" class="btn btn-secondary">Elolvasom</a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 ">
-                  <div class="bg-light rounded text-center p-3 h-100">
-                    <i class="bi bi-credit-card fs-1 text-info"></i>
-                    <p class="h5 mt-2 mb-4">Fizetési Feltételek</p>
-                    <a href="#" class="btn btn-secondary">Elolvasom</a>
-                </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <div class="bg-light rounded text-center p-3 h-100">
-                    <i class="bi bi-shield-fill-check fs-1 text-info"></i>
-                    <p class="h5 mt-2 mb-4">Biztonságos Vásárlás</p>
-                    <a href="#" class="btn btn-secondary">Elolvasom</a>
-                </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <div class="bg-light  rounded text-center p-3 h-100">
-                    <i class="bi bi-file-earmark-text fs-1 text-info"></i>
-                    <p class="h5 mt-2 mb-4">Vásárlási Feltételek</p>
-                    <a href="#" class="btn btn-secondary">Elolvasom</a>
-                </div>
-                </div>
-            </div>
-          </div>
-    
       </div>
 
+      
+      <div class="row">
+        <div class="col">
+          <h2 class="display-5 text-info mb-4"><span class="border border-4">Top Termékek</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <a href="#"><img src="https://cdn.aboutstatic.com/file/images/b420d71123bc0fa03bdcb37ce2114d9d.png" class="card-img-top img-fluid" alt="Nike sportnadrág"></a>
+            <div class="card-body">
+              <h3 class="h5 mb-3 card-title lh-base">Tengerészkék NIKE Sportnadrágok <br> 'Academy'</h3>
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <a href="#" class="btn btn-primary w-100">Megnézem</a>
+                </div>
+                <div class="col-6 fw-bold text-danger text-end">
+                  5.752 Ft <span class="text-decoration-line-through text-muted">7.190 Ft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+    
+      <div class="row mb-5 mt-5">
+        <video controls class="img-fluid">
+          <source src="focicuccli/Foci_cipo_tortenelemora.mp4" type="video/mp4">
+        </video> 
+      </div>  
+
+      
+      <div class="row mt-3">
+        <div class="col">
+          <h2 class="display-5 text-info mb-4"><span class="border border-4">Eladási számok</span></h2>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-hover table-secondary text-center">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Termék neve</th>
+              <th scope="col">Ár</th>
+              <th scope="col">Eladási szám</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>NIKE Sportnadrágok</td>
+              <td>17 990 Ft</td>
+              <td>27.900</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Arsenal Mez</td>
+              <td>16 500 Ft</td>
+              <td>39.400</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Fehérvár Mez</td>
+              <td>21 300 Ft</td>
+              <td>70.900</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      
       <footer class="bg-light mt-5 border-top py-5"> 
         <div class="container">
           <div class="row">
-          <div class="col-md-4">
-            <p class="fw-bold text-info">Ügyfélszolgálat és átvételi pont</p>
-            <p class="my-1 fw-bold"><a href="https://www.youtube.com/watch?v=7SnrcBMzCNg">Énvagyoka.KFT</a></p>
-            <p class="my-1">2222 Nagykanizsa, Deák tér 69.</p>
-            <p class="my-1">Football@shop.hu</p>
-            <p class="my-1"> + 36 342 6279</p>
-          </div>
-          <div class="col-md-4 nb-4 nd-md-0">
-            <p class="fw-bold text-info">Információ</p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Szállítási feltételek</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Fizetési feltételek</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Biztonságos vásárlás</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Vásárlási feltételek</a></p>
-          </div>
-          <div class="col-md-4">
-            <p class="fw-bold text-info">Legnépszerűbb kategóriák</p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Labdák</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Stoplik</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Kapuk</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Sípcsontvédő</a></p>
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <p class="fw-bold text-info">Ügyfélszolgálat és átvételi pont</p>
+              <p class="my-1 fw-bold"><a href="https://www.youtube.com/watch?v=7SnrcBMzCNg">Énvagyoka.KFT</a></p>
+              <p class="my-1">2222 Nagykanizsa, Deák tér 69.</p>
+              <p class="my-1">Football@shop.hu</p>
+              <p class="my-1">+36 342 6279</p>
+            </div>
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <p class="fw-bold text-info">Információ</p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Szállítási feltételek</a></p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Fizetési feltételek</a></p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Biztonságos vásárlás</a></p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Vásárlási feltételek</a></p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p class="fw-bold text-info">Legnépszerűbb kategóriák</p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Labdák</a></p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Stoplik</a></p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Kapuk</a></p>
+              <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Sípcsontvédő</a></p>
+            </div>
           </div>
         </div>
-       </div>
       </footer>
-      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
-  </html>
+</html>

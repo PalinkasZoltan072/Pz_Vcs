@@ -5,325 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Football Shop</title>
     <link rel="stylesheet" href="foci.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   </head>
   <body class="idk">
     
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#"> <i class="bi bi-basket2"></i> Football Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Vásárlási Feltételek</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  kategóriák
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="Labdák.html">Labdák</a></li>
-                  <li><a class="dropdown-item" href="Cipők.html">Cipők</a></li>
-                  <li><a class="dropdown-item" href="ruhazatok.shh.html">Ruházatok</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-             
-              </li>
-            </ul>
-            <form class="d-flex align-items-center gap-2 ms-lg-auto w-100 w-lg-auto" role="search"> // classot bővitettem hogy reszponziv legyen a regisztracio is
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Keresés">
-              <button class="btn btn-outline-info" type="submit">Keresés</button>
-              <a href="regisztracio.html" class="btn btn-primary ms-2">Regisztráció</a> // uj
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="bi bi-basket2"></i> Football Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Főoldal</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Vásárlási Feltételek</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Kategóriák</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Labdák.html">Labdák</a></li>
+                <li><a class="dropdown-item" href="Cipők.html">Cipők</a></li>
+                <li><a class="dropdown-item" href="ruhazatok.shh.html">Ruházatok</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex align-items-center gap-2 ms-lg-auto w-100 w-lg-auto" role="search">
+            <input class="form-control" type="search" placeholder="Keresés" aria-label="Keresés">
+            <button class="btn btn-outline-info" type="submit">Keresés</button>
+            <a href="regisztracio.html" type="submit" class="btn btn-primary">Regisztráció</a>
+            <button class="btn btn-outline-info" type="submit">Bejelentkezés</button>
+            
+          </form>
+        </div>
+      </div>
+    </nav>
 
-            </form>
+    <div class="container">
+      
+      <div class="row my-5">
+        <div class="col-lg-5">
+          <h1 class="text-bg-secondary p-3 mb-4 border border-4 changes">Üdvözöljük!</h1>
+          <ul class="border border-4 changes"> 
+            <li class="fs-5">Kényelmesen otthonából rendelheti meg webáruházunkban az Önnek legmegfelelőbb készülékeket.</li>
+            <li class="fs-5">Termékeink mindegyike magyarországi szervízzel rendelkezik.</li>
+            <li class="fs-5">A megrendelt készüléket akár már másnap kézhez veheti.</li>
+            <li class="fs-5">Az áruházban megtalálható termékek nagy része raktárról kerül kiküldésre.</li>
+            <li class="fs-5">Minden beérkezett megrendelést emailben visszaigazolunk.</li>
+          </ul>
+        </div>
+        <div class="col-lg-7 mt-3 mt-lg-0">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="focicuccli/foci.shh.jpeg" class="d-block w-100 img-fluid" alt="Kapu">
+              </div>
+              <div class="carousel-item">
+                <img src="focicuccli/foci.shshs.jpg" class="d-block w-100 img-fluid" alt="Labda">
+              </div>
+              <div class="carousel-item">
+                <img src="focicuccli/Márka-férfi-foci-cipő.jpg" class="d-block w-100 img-fluid" alt="Férfi Foci Cipő">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
           </div>
         </div>
-      </nav>
-
-      <div class="container">
-          <div class="row my-5" >
-              <div class="col-lg-5">
-                  <h1 class="text-bg-secondary p-3 mb-4 border border-4 changes">Üdvözöljük!</h1>
-                  <br>
-                  
-                      <ul class="border border-4 changes"> 
-
-                      <li class="fs-5">Kényelmesen otthonából rendelheti meg webáruházunkban az Önnek legmegfelelőbb készülékeket.</li>
-                      <li class="fs-5">Termékeink mindegyike magyarországi szervízzel rendelkezik.</li>
-                      <li class="fs-5">A megrendelt készüléket akár már másnap kézhez veheti.</li>
-                      <li class="fs-5">Az áruházban megtalálható termékek nagy része raktárról kerül kiküldésre.</li>
-                      <li class="fs-5">Minden beérkezett megrendelést emailban vissza igazolunk.</li>
-                          
-                     </ul>
-                  
-              </div>
-
-              <div class="col-lg-7 mt-3 mt-lg-0">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="focicuccli/foci.shh.jpeg" class="d-block w-100" alt="Kapu">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="focicuccli/foci.shshs.jpg" class="d-block w-100" alt="Labda">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="focicuccli/Márka-férfi-foci-cipő.jpg" class="d-block w-100" alt="Shop-Modern.cam Márka Férfi Foci Cipő Hosszú Spinks Stopli">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                  </div>
-                </div>
-
-          <div class="row">
-              <div class="col">
-                  <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Top Termékek</span></h2>
-                  <br>
-              </div>
-              <div class="row">
-                <div class="col-sm mb-4 mb-sm-0">
-                  <div class="card h-100">
-                    <a href="focicuccli/focicipöö.webp" target="_blank"><img src="focicuccli/focicipöö.webp" class="card-img-top" alt="Puma stopli"></a>
-                    <div class="card-body">
-                      <h3 class="h3 mb-3 card-title lh-base"> Szuperkönnyű Puma evoSPEED SL focicipő</h3>
-                      <div class="row align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-6">
-                          <a href="#" class="btn btn-primary">Megnézem</a>
-                        </div>
-                        <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                          18 798 Ft
-                        </div>
-                      </div>
-                      
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm mb-4 mb-sm-0">
-                  <div class="card h-100">
-                    <a href="#"><img src="focicuccli/védő.png" class="card-img-top" alt="sípcsontvédő"></a>
-                    <div class="card-body">
-                      <h3 class="h3 mb-3 card-title lh-base">Elite Nike PRO <br> Sípcsontvédő</h3>
-                      <div class="row align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-6">
-                          <a href="#" class="btn btn-primary">Megnézem</a>
-                        </div>
-                        <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                          10 230 Ft
-                        </div>
-                      </div>
-                      
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm mb-4 mb-sm-0">
-                  <div class="card h-100">
-                    <a href="#"><img src="focicuccli/kispalyas-kapu.jpg" class="card-img-top" alt="Kapu"></a>
-                    <div class="card-body">
-                      <h3 class="h3 mb-3 card-title lh-base">Kézilabda kapu <br> Ezüst Színű</h3>
-                      <div class="row align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-6">
-                          <a href="#" class="btn btn-primary">Megnézem</a>
-                        </div>
-                        <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                          23 970 Ft
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- <div class="row mb-5 mb-5">
-            <div class="col">
-              <img src="focicuccli/kééééép.webp" class="img-fluid" alt="...">
-            </div>
-          </div> -->
-
-          <div class="row">
-            <div class="col">
-              <br>
-                <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Kiemelt Termékek</span></h2>
-                <br>
-            </div>
-            <div class="row m">
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                 <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/adidas-predator-19-1.jpeg" class="card-img-top" alt="adidasstopli"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Adidas Predator 19.1 SG <br>fém fogás Stopli </h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        18 798 Ft
-                      </div>
-                    </div>
-
-                  </div>
-                  <div class="card-footer text-muted">
-                    <a href="#" class="text-decoration-none text-secondary small">Stoplik</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/PUMAaranystopli.jpg" class="card-img-top" alt="Puma stopli"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Puma Max PRO 32 Aranyozott<br> füves stopli </h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        29 798 Ft
-                      </div>
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="text-decoration-none text-secondary small">Stoplik</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/kesztyű.avif" class="card-img-top" alt="Puma kesztyű"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Puma Elit Kesztyű <br>műfűre és füves talajra  </h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        18 798 Ft
-                      </div>
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="text-decoration-none text-secondary small">Kesztyű</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 mb-md-0 ">
-                <div class="card h-100">
-                  <a href="#"><img src="kiemelttermékek/sipi.jpg" class="card-img-top" alt="Puma stopli"></a>
-                  <div class="card-body">
-                    <h3 class="h3 mb-3 card-title lh-base">Nike sípcsontvédő PRO 39 <br> legújabb változat</h3>
-                    <div class="row align-items-center">
-                      <div class="order-2 order-lg-1 col-lg-6">
-                        <a href="#" class="btn btn-primary">Megnézem</a>
-                      </div>
-                      <div class="order-1 order-lg-2 col-lg-6 fw-bold text-danger text-start text-lg-end mb-3 mb-lg-0">
-                        23 100 Ft
-                      </div>
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="text-decoration-none text-secondary small">sípcsontvédő</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row mt-3">
-            <div class="col">
-              <br>
-                <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Információk</span></h2>
-                <br>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                   <div class="bg-light rounded text-center p-3 h-100">
-                      <i class="bi bi-truck fs-1 text-info"></i>
-                      <p class="h5 mt-2 mb-4">Szállítási Feltételek </p>
-                      <a href="#" class="btn btn-secondary">Elolvasom</a>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 ">
-                  <div class="bg-light rounded text-center p-3 h-100">
-                    <i class="bi bi-credit-card fs-1 text-info"></i>
-                    <p class="h5 mt-2 mb-4">Fizetési Feltételek</p>
-                    <a href="#" class="btn btn-secondary">Elolvasom</a>
-                </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <div class="bg-light rounded text-center p-3 h-100">
-                    <i class="bi bi-shield-fill-check fs-1 text-info"></i>
-                    <p class="h5 mt-2 mb-4">Biztonságos Vásárlás</p>
-                    <a href="#" class="btn btn-secondary">Elolvasom</a>
-                </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <div class="bg-light  rounded text-center p-3 h-100">
-                    <i class="bi bi-file-earmark-text fs-1 text-info"></i>
-                    <p class="h5 mt-2 mb-4">Vásárlási Feltételek</p>
-                    <a href="#" class="btn btn-secondary">Elolvasom</a>
-                </div>
-                </div>
-            </div>
-          </div>
-    
       </div>
 
-      <footer class="bg-light mt-5 border-top py-5"> 
-        <div class="container">
-          <div class="row">
-          <div class="col-md-4">
-            <p class="fw-bold text-info">Ügyfélszolgálat és átvételi pont</p>
-            <p class="my-1 fw-bold"><a href="https://www.youtube.com/watch?v=7SnrcBMzCNg&t=1s">Énvagyoka.KFT</a></p>
-            <p class="my-1">2222 Nagykanizsa, Deák tér 69.</p>
-            <p class="my-1">Football@shop.hu</p>
-            <p class="my-1"> + 36 342 6279</p>
-          </div>
-          <div class="col-md-4 nb-4 nd-md-0">
-            <p class="fw-bold text-info">Információ</p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Szállítási feltételek</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Fizetési feltételek</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Biztonságos vásárlás</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Vásárlási feltételek</a></p>
-          </div>
-          <div class="col-md-4">
-            <p class="fw-bold text-info">Legnépszerűbb kategóriák</p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Labdák</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Stoplik</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Kapuk</a></p>
-            <p class="my-1"><a href="#" class="text-decoration-none text-secondary">Sípcsontvédő</a></p>
+     
+      <div class="row">
+        <div class="col">
+          <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Top Termékek</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <a href="focicuccli/focicipöö.webp" target="_blank">
+              <img src="focicuccli/focicipöö.webp" class="card-img-top img-fluid" alt="Puma stopli">
+            </a>
+            <div class="card-body">
+              <h3 class="h5 card-title">Szuperkönnyű Puma evoSPEED SL focicipő</h3>
+              <div class="row align-items-center">
+                <div class="col-6"><a href="#" class="btn btn-primary w-100">Megnézem</a></div>
+                <div class="col-6 text-danger fw-bold text-end">18 798 Ft</div>
+              </div>
+            </div>
           </div>
         </div>
-       </div>
-      </footer>
+        
+      </div>
 
+      
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Kiemelt Termékek</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+          <div class="card h-100">
+            <a href="#"><img src="kiemelttermékek/adidas-predator-19-1.jpeg" class="card-img-top img-fluid" alt="adidas stopli"></a>
+            <div class="card-body">
+              <h3 class="h6 card-title">Adidas Predator 19.1 SG fém stopli</h3>
+              <div class="row align-items-center">
+                <div class="col-6"><a href="#" class="btn btn-primary w-100">Megnézem</a></div>
+                <div class="col-6 text-danger fw-bold text-end">18 798 Ft</div>
+              </div>
+            </div>
+            <div class="card-footer"><a href="#" class="text-decoration-none text-secondary small">Stoplik</a></div>
+          </div>
+        </div>
+       
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+     
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Információk</span></h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="bg-light rounded p-3 h-100">
+            <i class="bi bi-truck fs-1 text-info"></i>
+            <p class="h5 mt-2">Szállítási Feltételek</p>
+            <a href="#" class="btn btn-secondary">Elolvasom</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <footer class="bg-light mt-5 border-top py-5"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <p class="fw-bold text-info">Ügyfélszolgálat és átvételi pont</p>
+            <p class="fw-bold"><a href="https://www.youtube.com/watch?v=7SnrcBMzCNg&t=1s">Énvagyoka.KFT</a></p>
+            <p>2222 Nagykanizsa, Deák tér 69.</p>
+            <p>Football@shop.hu</p>
+            <p>+36 342 6279</p>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <p class="fw-bold text-info">Információ</p>
+            <p><a href="#" class="text-decoration-none text-secondary">Szállítási feltételek</a></p>
+            <p><a href="#" class="text-decoration-none text-secondary">Fizetési feltételek</a></p>
+            <p><a href="#" class="text-decoration-none text-secondary">Biztonságos vásárlás</a></p>
+            <p><a href="#" class="text-decoration-none text-secondary">Vásárlási feltételek</a></p>
+          </div>
+          <div class="col-12 col-md-4">
+            <p class="fw-bold text-info">Legnépszerűbb kategóriák</p>
+            <p><a href="#" class="text-decoration-none text-secondary">Labdák</a></p>
+            <p><a href="#" class="text-decoration-none text-secondary">Stoplik</a></p>
+            <p><a href="#" class="text-decoration-none text-secondary">Kapuk</a></p>
+            <p><a href="#" class="text-decoration-none text-secondary">Sípcsontvédő</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-  </html>
+</html>
