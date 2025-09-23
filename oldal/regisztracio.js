@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
   };
 
   // fetch POST => hozzáadunk vmi újat itt az adatokat
-  fetch("szerver.php", { // a szerver.php helyere majd a Node.js es backend utvonal jön? 
+  fetch("http://localhost:3000/mukodj", { // a szerver.php helyere majd a Node.js es backend utvonal jön? 
     method: "POST",
     headers: {
       "Content-Type": "application/json"
