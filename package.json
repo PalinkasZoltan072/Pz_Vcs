@@ -1,0 +1,23 @@
+{
+  "name": "pz_vcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalinkasZoltan072/Pz_Vcs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalinkasZoltan072/Pz_Vcs/issues"
+  },
+  "homepage": "https://github.com/PalinkasZoltan072/Pz_Vcs#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

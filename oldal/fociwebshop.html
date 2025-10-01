@@ -174,7 +174,42 @@
           </div>
         </div>
       </div>
+            <script>
+
+              fetch('http://localhost/ciposhop/cipok.php')
+              .then(res => res.json())
+              .then(cipok => {
+              console.log('Cipők:', cipok);
+              });
+
+
+            fetch('http://localhost/ciposhop/felhasznalok.php')
+              .then(res => res.json())
+              .then(felhasznalok => {
+                console.log('Felhasználók:', felhasznalok);
+              });
+
+            fetch('http://localhost/ciposhop/rendelesek.php')
+              .then(res => res.json())
+              .then(rendelesek => {
+                console.log('Rendelések:', rendelesek);
+              });
+
+
+
+            fetch('/api/teszt')
+              .then(res => res.text())
+              .then(data => {
+                document.getElementById('response').innerText = data;
+              })
+              .catch(err => {
+                document.getElementById('response').innerText = 'Hiba történt';
+                console.error(err);
+              });
+            </script>
+           
     </footer>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
