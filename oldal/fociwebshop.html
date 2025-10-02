@@ -115,7 +115,6 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-md-3 mb-4">
           <div class="card h-100">
-            <a href="#"><img src="kiemelttermékek/adidas-predator-19-1.jpeg" class="card-img-top img-fluid" alt="adidas stopli"></a>
             <div class="card-body">
               <h3 class="h6 card-title">Adidas Predator 19.1 SG fém stopli</h3>
               <div class="row align-items-center">
@@ -176,36 +175,25 @@
       </div>
             <script>
 
-              fetch('http://localhost/ciposhop/cipok.php')
+              fetch('http://localhost:5000/cipok')
               .then(res => res.json())
               .then(cipok => {
               console.log('Cipők:', cipok);
               });
 
 
-            fetch('http://localhost/ciposhop/felhasznalok.php')
+            fetch("http://localhost:5000/felhasznalok")
               .then(res => res.json())
               .then(felhasznalok => {
                 console.log('Felhasználók:', felhasznalok);
               });
 
-            fetch('http://localhost/ciposhop/rendelesek.php')
+            fetch("http://localhost:5000/rendelesek")
               .then(res => res.json())
               .then(rendelesek => {
                 console.log('Rendelések:', rendelesek);
               });
-
-
-
-            fetch('/api/teszt')
-              .then(res => res.text())
-              .then(data => {
-                document.getElementById('response').innerText = data;
-              })
-              .catch(err => {
-                document.getElementById('response').innerText = 'Hiba történt';
-                console.error(err);
-              });
+   
             </script>
            
     </footer>

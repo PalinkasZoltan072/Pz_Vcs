@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
     password: password.value
   };
 
-  fetch("http://localhost:3000/felhasznalo/regisztral", {
+  fetch("http://localhost:5000/felhasznalok/regisztral", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(adat)

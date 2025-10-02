@@ -1,16 +1,18 @@
 const express = require("express");
 const app = express();
+const path = require("path");
 
 app.use(express.json());
+app.use(express.static("public"));
 
-// Route-ok importálása
+app.use(express.static(path.join(__dirname, "../oldal")));
+
 const cipokRoutes = require("./routes/cipokRoutes");
 const felhasznalokRoutes = require("./routes/felhasznalokRoutes");
 const rendelesekRoutes = require("./routes/rendelesekRoutes");
 
-// Route-ok használata
-app.use("/api/cipok", cipokRoutes);
-app.use("/api/felhasznalok", felhasznalokRoutes);
-app.use("/api/rendelesek", rendelesekRoutes);
+app.use("/cipok", cipokRoutes);
+app.use("/felhasznalok", felhasznalokRoutes);
+app.use("/rendelesek", rendelesekRoutes);
 
 module.exports = app;
