@@ -42,3 +42,26 @@ exports.regisztral = async (req, res) => {
     res.status(500).json({ message: "Hiba az adatbázisban!" });
   }
 };
+
+exports.login = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ message: "Hiányzó adatok!" });
+    }
+
+    const [rows] = await db.execute(
+      "SELECT felhasznalonev, email FROM felhasznalok WHERE email = ? AND jelszo_hash = ?",
+      [email, password]
+    );
+
+    if (rows.length === 0) {
+      return res.status(401).json({ message: "Helytelen email vagy jelszó!" });
+    }
+
+    res.json({ message: `Szia, ${rows[0].felhasznalonev}! Sikeresen bejelentkeztél.`, user: rows[0] });
+  } catch (err) {
+    res.status(500).json({ message: "Hiba az adatbázisban!" });
+  }
+};

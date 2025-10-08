@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   </head>
   <body class="idk">
-    
-    
+
+  
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#"><i class="bi bi-basket2"></i> Football Shop</a>
@@ -33,20 +33,25 @@
           <form class="d-flex align-items-center gap-2 ms-lg-auto w-100 w-lg-auto" role="search">
             <input class="form-control" type="search" placeholder="Keresés" aria-label="Keresés">
             <button class="btn btn-outline-info" type="submit">Keresés</button>
-            <a href="regisztracio.html" type="submit" class="btn btn-primary">Regisztráció</a>
-            <button class="btn btn-outline-info" type="submit">Bejelentkezés</button>
+            <a href="regisztracio.html" id="regBtn" class="btn btn-primary">Regisztráció</a>
+            <button id="loginButton" type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#loginModal">Bejelentkezés</button>
             
+            <a href="#" class="btn btn-warning position-relative ms-2" data-bs-toggle="modal" data-bs-target="#cartModal">
+              <i class="bi bi-cart3"></i> Kosár
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cartCount">0</span>
+            </a>
           </form>
         </div>
       </div>
     </nav>
 
-    <div class="container">
-      
-      <div class="row my-5">
-        <div class="col-lg-5">
+   
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-12">
+       
           <h1 class="text-bg-secondary p-3 mb-4 border border-4 changes">Üdvözöljük!</h1>
-          <ul class="border border-4 changes"> 
+          <ul class="border border-4 changes mb-4">
             <li class="fs-5">Kényelmesen otthonából rendelheti meg webáruházunkban az Önnek legmegfelelőbb készülékeket.</li>
             <li class="fs-5">Termékeink mindegyike magyarországi szervízzel rendelkezik.</li>
             <li class="fs-5">A megrendelt készüléket akár már másnap kézhez veheti.</li>
@@ -54,7 +59,11 @@
             <li class="fs-5">Minden beérkezett megrendelést emailben visszaigazolunk.</li>
           </ul>
         </div>
-        <div class="col-lg-7 mt-3 mt-lg-0">
+      </div>
+
+    
+      <div class="row mb-5">
+        <div class="col-lg-12">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
@@ -82,8 +91,8 @@
         </div>
       </div>
 
-     
-      <div class="row">
+  
+      <div class="row mb-4">
         <div class="col">
           <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Top Termékek</span></h2>
         </div>
@@ -97,16 +106,17 @@
             <div class="card-body">
               <h3 class="h5 card-title">Szuperkönnyű Puma evoSPEED SL focicipő</h3>
               <div class="row align-items-center">
-                <div class="col-6"><a href="#" class="btn btn-primary w-100">Megnézem</a></div>
+                <div class="col-6">
+                  <button class="btn btn-outline-success w-100 addToCart" data-name="Puma evoSPEED SL focicipő" data-price="18798">Kosárba</button>
+                </div>
                 <div class="col-6 text-danger fw-bold text-end">18 798 Ft</div>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
 
-      
+    
       <div class="row mt-5">
         <div class="col">
           <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Kiemelt Termékek</span></h2>
@@ -118,35 +128,66 @@
             <div class="card-body">
               <h3 class="h6 card-title">Adidas Predator 19.1 SG fém stopli</h3>
               <div class="row align-items-center">
-                <div class="col-6"><a href="#" class="btn btn-primary w-100">Megnézem</a></div>
+                <div class="col-6">
+                  <button class="btn btn-outline-success w-100 addToCart" data-name="Adidas Predator 19.1 SG fém stopli" data-price="18798">Kosárba</button>
+                </div>
                 <div class="col-6 text-danger fw-bold text-end">18 798 Ft</div>
               </div>
             </div>
             <div class="card-footer"><a href="#" class="text-decoration-none text-secondary small">Stoplik</a></div>
           </div>
         </div>
-       
-      </div>
-
-     
-      <div class="row mt-5">
-        <div class="col">
-          <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Információk</span></h2>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-          <div class="bg-light rounded p-3 h-100">
-            <i class="bi bi-truck fs-1 text-info"></i>
-            <p class="h5 mt-2">Szállítási Feltételek</p>
-            <a href="#" class="btn btn-secondary">Elolvasom</a>
-          </div>
-        </div>
-        
       </div>
     </div>
 
+   
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Bejelentkezés</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+      </div>
+      <div class="modal-body">
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="loginEmail" class="form-label">Email cím</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Email címed" required>
+          </div>
+          <div class="mb-3">
+            <label for="loginPassword" class="form-label">Jelszó</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Jelszó" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Bejelentkezés</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">Kosár</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group" id="cartItems"></ul>
+            <div class="mt-3 text-end">
+              <h5>Összesen: <span id="totalPrice">0</span> Ft</h5>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger w-100" id="clearCart">Kosár ürítése</button>
+            <button class="btn btn-success w-100" id="placeOrder">Rendelés leadása</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
+
     <footer class="bg-light mt-5 border-top py-5"> 
       <div class="container">
         <div class="row">
@@ -173,28 +214,64 @@
           </div>
         </div>
       </div>
+    </footer>
             <script>
+              
+                  fetch('http://localhost:5000/cipok')
+                    .then(res => res.json())
+                    .then(cipok => console.log('Cipők:', cipok));
 
-              fetch('http://localhost:5000/cipok')
-              .then(res => res.json())
-              .then(cipok => {
-              console.log('Cipők:', cipok);
-              });
+                 
+                  fetch("http://localhost:5000/felhasznalok")
+                    .then(res => res.json())
+                    .then(felhasznalok => console.log('Felhasználók:', felhasznalok));
 
+                
+                  fetch("http://localhost:5000/rendelesek")
+                    .then(res => res.json())
+                    .then(rendelesek => console.log('Rendelések:', rendelesek));
 
-            fetch("http://localhost:5000/felhasznalok")
-              .then(res => res.json())
-              .then(felhasznalok => {
-                console.log('Felhasználók:', felhasznalok);
-              });
+                 
+                  document.addEventListener("DOMContentLoaded", () => {
+                  const regBtn = document.querySelector("#regBtn");       
+                  const loginBtn = document.querySelector("#loginButton"); 
+                  const loginForm = document.querySelector("#loginForm"); 
 
-            fetch("http://localhost:5000/rendelesek")
-              .then(res => res.json())
-              .then(rendelesek => {
-                console.log('Rendelések:', rendelesek);
-              });
-   
-            </script>
+                  if (loginForm) {
+                    loginForm.addEventListener("submit", (e) => {
+                      e.preventDefault(); 
+                      const email = document.querySelector("#loginEmail").value;
+                      const password = document.querySelector("#loginPassword").value;
+
+                      fetch("http://localhost:5000/felhasznalok/login", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ email, password })
+                      })
+                      .then(res => res.json())
+                      .then(data => {
+                        if (data.user) {
+                          alert(`Üdvözlünk, ${data.user.felhasznalonev}!`);
+
+                          
+                          if (regBtn) regBtn.style.display = "none";
+                          if (loginBtn) loginBtn.style.display = "none";
+
+                          
+                          const loginModal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
+                          loginModal.hide();
+                        } else {
+                          alert("Hibás email vagy jelszó!");
+                        }
+                      })
+                      .catch(err => {
+                        console.error(err);
+                        alert("Hiba a bejelentkezés során!");
+                      });
+                    });
+                  }
+                });
+              </script>
            
     </footer>
     

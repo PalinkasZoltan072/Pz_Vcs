@@ -11,4 +11,6 @@ router.get("/:username", felhasznalokController.getFelhasznaloByUsername);
 
 router.post("/regisztral", felhasznalokController.regisztral);
 
+router.post("/login", felhasznalokController.login);
+
 module.exports = router;
