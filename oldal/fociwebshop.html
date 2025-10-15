@@ -10,7 +10,7 @@
   </head>
   <body class="idk">
 
-  
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#"><i class="bi bi-basket2"></i> Football Shop</a>
@@ -45,11 +45,10 @@
       </div>
     </nav>
 
-   
+    <!-- Tartalom -->
     <div class="container my-5">
       <div class="row">
         <div class="col-lg-12">
-       
           <h1 class="text-bg-secondary p-3 mb-4 border border-4 changes">Üdvözöljük!</h1>
           <ul class="border border-4 changes mb-4">
             <li class="fs-5">Kényelmesen otthonából rendelheti meg webáruházunkban az Önnek legmegfelelőbb készülékeket.</li>
@@ -61,7 +60,7 @@
         </div>
       </div>
 
-    
+      <!-- Carousel -->
       <div class="row mb-5">
         <div class="col-lg-12">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -91,81 +90,44 @@
         </div>
       </div>
 
-  
+      <!-- Top Termékek -->
       <div class="row mb-4">
         <div class="col">
           <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Top Termékek</span></h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4 mb-4">
-          <div class="card h-100">
-            <a href="focicuccli/focicipöö.webp" target="_blank">
-              <img src="focicuccli/focicipöö.webp" class="card-img-top img-fluid" alt="Puma stopli">
-            </a>
-            <div class="card-body">
-              <h3 class="h5 card-title">Szuperkönnyű Puma evoSPEED SL focicipő</h3>
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <button class="btn btn-outline-success w-100 addToCart" data-name="Puma evoSPEED SL focicipő" data-price="18798">Kosárba</button>
-                </div>
-                <div class="col-6 text-danger fw-bold text-end">18 798 Ft</div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row" id="topTermekekRow">
+        <!-- Termékek ide töltődnek be API-ból -->
       </div>
 
-    
-      <div class="row mt-5">
-        <div class="col">
-          <h2 class="display-3 text-info mb-4"><span class="border border-4 changes">Kiemelt Termékek</span></h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-3 mb-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h3 class="h6 card-title">Adidas Predator 19.1 SG fém stopli</h3>
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <button class="btn btn-outline-success w-100 addToCart" data-name="Adidas Predator 19.1 SG fém stopli" data-price="18798">Kosárba</button>
-                </div>
-                <div class="col-6 text-danger fw-bold text-end">18 798 Ft</div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Bejelentkezés</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+          </div>
+          <div class="modal-body">
+            <form id="loginForm">
+              <div class="mb-3">
+                <label for="loginEmail" class="form-label">Email cím</label>
+                <input type="email" class="form-control" id="loginEmail" placeholder="Email címed" required>
               </div>
-            </div>
-            <div class="card-footer"><a href="#" class="text-decoration-none text-secondary small">Stoplik</a></div>
+              <div class="mb-3">
+                <label for="loginPassword" class="form-label">Jelszó</label>
+                <input type="password" class="form-control" id="loginPassword" placeholder="Jelszó" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Bejelentkezés</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
 
-   
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="loginModalLabel">Bejelentkezés</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
-      </div>
-      <div class="modal-body">
-        <form id="loginForm">
-          <div class="mb-3">
-            <label for="loginEmail" class="form-label">Email cím</label>
-            <input type="email" class="form-control" id="loginEmail" placeholder="Email címed" required>
-          </div>
-          <div class="mb-3">
-            <label for="loginPassword" class="form-label">Jelszó</label>
-            <input type="password" class="form-control" id="loginPassword" placeholder="Jelszó" required>
-          </div>
-          <button type="submit" class="btn btn-primary w-100">Bejelentkezés</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
+    <!-- Kosár Modal -->
     <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -186,8 +148,8 @@
         </div>
       </div>
     </div>
-    
 
+    <!-- Footer -->
     <footer class="bg-light mt-5 border-top py-5"> 
       <div class="container">
         <div class="row">
@@ -215,67 +177,184 @@
         </div>
       </div>
     </footer>
-            <script>
-              
-                  fetch('http://localhost:5000/cipok')
-                    .then(res => res.json())
-                    .then(cipok => console.log('Cipők:', cipok));
 
-                 
-                  fetch("http://localhost:5000/felhasznalok")
-                    .then(res => res.json())
-                    .then(felhasznalok => console.log('Felhasználók:', felhasznalok));
-
-                
-                  fetch("http://localhost:5000/rendelesek")
-                    .then(res => res.json())
-                    .then(rendelesek => console.log('Rendelések:', rendelesek));
-
-                 
-                  document.addEventListener("DOMContentLoaded", () => {
-                  const regBtn = document.querySelector("#regBtn");       
-                  const loginBtn = document.querySelector("#loginButton"); 
-                  const loginForm = document.querySelector("#loginForm"); 
-
-                  if (loginForm) {
-                    loginForm.addEventListener("submit", (e) => {
-                      e.preventDefault(); 
-                      const email = document.querySelector("#loginEmail").value;
-                      const password = document.querySelector("#loginPassword").value;
-
-                      fetch("http://localhost:5000/felhasznalok/login", {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ email, password })
-                      })
-                      .then(res => res.json())
-                      .then(data => {
-                        if (data.user) {
-                          alert(`Üdvözlünk, ${data.user.felhasznalonev}!`);
-
-                          
-                          if (regBtn) regBtn.style.display = "none";
-                          if (loginBtn) loginBtn.style.display = "none";
-
-                          
-                          const loginModal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
-                          loginModal.hide();
-                        } else {
-                          alert("Hibás email vagy jelszó!");
-                        }
-                      })
-                      .catch(err => {
-                        console.error(err);
-                        alert("Hiba a bejelentkezés során!");
-                      });
-                    });
-                  }
-                });
-              </script>
-           
-    </footer>
-    
-
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+          // --- Meglévő fetch kód ---
+fetch('http://localhost:5000/cipok')
+  .then(res => res.json())
+  .then(cipok => console.log('Cipők:', cipok));
+
+fetch("http://localhost:5000/felhasznalok")
+  .then(res => res.json())
+  .then(felhasznalok => console.log('Felhasználók:', felhasznalok));
+
+fetch("http://localhost:5000/rendelesek")
+  .then(res => res.json())
+  .then(rendelesek => console.log('Rendelések:', rendelesek));
+
+document.addEventListener("DOMContentLoaded", () => {
+  const regBtn = document.querySelector("#regBtn");       
+  const loginBtn = document.querySelector("#loginButton"); 
+  const loginForm = document.querySelector("#loginForm"); 
+
+  if (loginForm) {
+    loginForm.addEventListener("submit", (e) => {
+      e.preventDefault(); 
+      const email = document.querySelector("#loginEmail").value;
+      const password = document.querySelector("#loginPassword").value;
+
+      fetch("http://localhost:5000/felhasznalok/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.user) {
+          alert(`Üdvözlünk, ${data.user.felhasznalonev}!`);
+          if (regBtn) regBtn.style.display = "none";
+          if (loginBtn) loginBtn.style.display = "none";
+          const loginModal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
+          loginModal.hide();
+        } else {
+          alert("Hibás email vagy jelszó!");
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        alert("Hiba a bejelentkezés során!");
+      });
+    });
+  }
+
+  const topTermekekRow = document.querySelector("#topTermekekRow");
+const userId = 1; 
+let cart = [];
+
+function updateCart() {
+  const cartItems = document.querySelector("#cartItems");
+  const totalPrice = document.querySelector("#totalPrice");
+  cartItems.innerHTML = "";
+  let total = 0;
+
+  cart.forEach((item, index) => {
+    const li = document.createElement("li");
+    li.className = "list-group-item d-flex justify-content-between align-items-center";
+
+    li.innerHTML = `
+      <div>
+        ${item.name} 
+        x <input type="number" min="1" value="${item.darab}" class="cart-qty" style="width:50px">
+        <select class="cart-size">
+          ${item.meretek ? item.meretek.map(m => `<option value="${m}" ${m===item.meret ? "selected" : ""}>${m}</option>`).join("") : `<option value="">-</option>`}
+        </select>
+      </div>
+      <div>
+        ${item.price * item.darab} Ft
+        <button class="btn btn-sm btn-danger ms-2 removeItem">Törlés</button>
+      </div>
+    `;
+
+    // Darabszám változtatása
+    li.querySelector(".cart-qty").addEventListener("change", (e) => {
+      const newQty = parseInt(e.target.value);
+      if (newQty > 0) {
+        item.darab = newQty;
+        updateCart();
+      }
+    });
+
+    // Méret változtatása
+    li.querySelector(".cart-size").addEventListener("change", (e) => {
+      item.meret = e.target.value;
+    });
+
+    // Törlés
+    li.querySelector(".removeItem").addEventListener("click", () => {
+      cart.splice(index, 1);
+      updateCart();
+    });
+
+    cartItems.appendChild(li);
+    total += item.price * item.darab;
+  });
+
+  totalPrice.textContent = total;
+}
+
+// Kosár gomb események
+document.querySelector("#clearCart")?.addEventListener("click", () => { 
+  cart = []; 
+  updateCart(); 
+});
+
+document.querySelector("#placeOrder")?.addEventListener("click", () => {
+  fetch("http://localhost:5000/rendelesek", {
+    method: "POST",
+    headers: {"Content-Type":"application/json"},
+    body: JSON.stringify({ userId, termekek: cart })
+  }).then(()=>{ 
+    alert("Rendelés sikeresen leadva!"); 
+    cart=[]; 
+    updateCart(); 
+  });
+});
+
+// --- Termékek betöltése --- 
+if(topTermekekRow) {
+  fetch('http://localhost:5000/cipok')
+    .then(res => res.json())
+    .then(cipok => {
+      cipok.forEach(cipo => {
+        // Ha nincs méret, adjunk alapértelmezett 2 méretet
+        const meretek = cipo.meretek && cipo.meretek.length ? cipo.meretek : ["M", "L"];
+
+        const col = document.createElement("div");
+        col.className = "col-12 col-sm-6 col-lg-4 mb-4";
+        col.innerHTML = `
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h5 card-title">${cipo.nev || cipo.name}</h3>
+              <div class="row align-items-center">
+                <div class="col-6">
+                  <button class="btn btn-outline-success w-100 addToCart" 
+                    data-id="${cipo.id}" 
+                    data-name="${cipo.nev || cipo.name}" 
+                    data-price="${cipo.ar || 0}" 
+                    data-meretek='${JSON.stringify(meretek)}'>
+                    Kosárba
+                  </button>
+                </div>
+                <div class="col-6 text-danger fw-bold text-end">${cipo.ar || 0} Ft</div>
+              </div>
+            </div>
+          </div>
+        `;
+        topTermekekRow.appendChild(col);
+      });
+
+      document.querySelectorAll(".addToCart").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const id = btn.dataset.id;
+          const name = btn.dataset.name;
+          const price = parseInt(btn.dataset.price);
+          const meretek = JSON.parse(btn.dataset.meretek);
+          const meret = meretek[0] || ""; // alapértelmezett az első méret
+
+          let existing = cart.find(i => i.id==id && i.meret==meret);
+          if(existing) existing.darab++;
+          else cart.push({id, name, price, darab:1, meretek, meret});
+
+          updateCart();
+        });
+      });
+    })
+    .catch(err => console.error("Hiba a termékek betöltésekor:", err));
+}
+});
+</script>
   </body>
 </html>

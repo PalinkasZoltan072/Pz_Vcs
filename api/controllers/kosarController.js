@@ -1,69 +1,66 @@
 const db = require("../db");
 
-
-exports.getKosarByFelhasznalo = async (req, res) => {
+// Kosár lekérése
+exports.getCart = async (req, res) => {
+  const { userId } = req.params;
   try {
-    const { username } = req.params;
-    const [rows] = await db.execute(`
-      SELECT k.id, k.mennyiseg, c.marka, c.meret, c.ar
-      FROM kosar k
-      JOIN cipok c ON k.cipo_id = c.id
-      WHERE k.felhasznalonev = ?
-    `, [username]);
+    const [rows] = await db.query(
+      `SELECT k.id, k.termek_id, t.nev, t.ar, k.meret, k.darab 
+       FROM kosar k 
+       JOIN termekek t ON k.termek_id = t.id 
+       WHERE k.user_id = ?`,
+      [userId]
+    );
     res.json(rows);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
 
-
-exports.addToKosar = async (req, res) => {
+// Termék hozzáadása a kosárhoz
+exports.addToCart = async (req, res) => {
+  const { userId, termekId, meret, darab } = req.body;
   try {
-    const { username, cipo_id, mennyiseg } = req.body;
-
-   
-    const [existing] = await db.execute(
-      "SELECT id, mennyiseg FROM kosar WHERE felhasznalonev = ? AND cipo_id = ?",
-      [username, cipo_id]
+    await db.query(
+      `INSERT INTO kosar (user_id, termek_id, meret, darab)
+       VALUES (?, ?, ?, ?)
+       ON DUPLICATE KEY UPDATE darab = darab + ?`,
+      [userId, termekId, meret, darab, darab]
     );
-
-    if (existing.length > 0) {
-     
-      await db.execute(
-        "UPDATE kosar SET mennyiseg = mennyiseg + ? WHERE id = ?",
-        [mennyiseg, existing[0].id]
-      );
-    } else {
-      
-      await db.execute(
-        "INSERT INTO kosar (felhasznalonev, cipo_id, mennyiseg) VALUES (?, ?, ?)",
-        [username, cipo_id, mennyiseg]
-      );
-    }
-
-    res.status(201).json({ message: "Kosár frissítve!" });
+    res.json({ success: true });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
 
-
-exports.removeFromKosar = async (req, res) => {
+// Kosár elem frissítése
+exports.updateCartItem = async (req, res) => {
+  const { id, darab } = req.body;
   try {
-    const { id } = req.params;
-    await db.execute("DELETE FROM kosar WHERE id = ?", [id]);
-    res.json({ message: "Elem törölve a kosárból!" });
+    await db.query(`UPDATE kosar SET darab = ? WHERE id = ?`, [darab, id]);
+    res.json({ success: true });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
 
-
-exports.clearKosar = async (req, res) => {
+// Kosár elem törlése
+exports.removeCartItem = async (req, res) => {
+  const { id } = req.body;
   try {
-    const { username } = req.params;
-    await db.execute("DELETE FROM kosar WHERE felhasznalonev = ?", [username]);
-    res.json({ message: "Kosár ürítve!" });
+    await db.query(`DELETE FROM kosar WHERE id = ?`, [id]);
+    res.json({ success: true });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
+
+// Kosár ürítése
+exports.clearCart = async (req, res) => {
+  const { userId } = req.body;
+  try {
+    await db.query(`DELETE FROM kosar WHERE user_id = ?`, [userId]);
+    res.json({ success: true });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
