@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="CipoBoltAdmin.Views.CipokView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Felső sáv -->
+        <DockPanel Margin="0,0,0,12">
+            <TextBlock Text="Cipők listája"
+               FontSize="16"
+               FontWeight="SemiBold"
+               Foreground="#111827"
+               VerticalAlignment="Center"
+               DockPanel.Dock="Left"/>
+
+            <!-- JOBB OLDAL: gombok -->
+            <StackPanel Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                DockPanel.Dock="Right">
+
+                <Button Content="Törlés"
+                Width="100"
+                Height="34"
+                Margin="0,0,10,0"
+                Click="BtnDeleteCipo_Click"/>
+
+                <Button Content="Új cipő"
+                Width="120"
+                Height="34"
+                Margin="0,0,10,0"
+                Click="BtnCreateCipo_Click"/>
+
+                <Button Content="Ár módosítása"
+                Width="140"
+                Height="34"
+                Click="BtnModifyPrice_Click"/>
+
+            </StackPanel>
+        </DockPanel>
+
+
+        <!-- DataGrid -->
+        <DataGrid Grid.Row="1"
+          ItemsSource="{Binding Cipok}"
+          SelectedItem="{Binding SelectedCipo}"
+          AutoGenerateColumns="False"
+          IsReadOnly="True"
+          CanUserAddRows="False">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
+                <DataGridTextColumn Header="Név" Binding="{Binding Nev}" Width="*"/>
+                <DataGridTextColumn Header="Márka" Binding="{Binding Marka}" Width="130"/>
+                <DataGridTextColumn Header="Méret" Binding="{Binding Meret}" Width="80"/>
+                <DataGridTextColumn Header="Ár" Binding="{Binding Ar}" Width="100"/>
+                <DataGridTextColumn Header="Típus" Binding="{Binding Tipus}" Width="140"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</UserControl>
