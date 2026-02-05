@@ -7,9 +7,9 @@ class RendelesRepository {
     }
 
     
-    async getAll() {
+    async getAll(filter = {}) {
         try {
-            return await this.Rendeles.findAll();
+            return await this.Rendeles.findAll({ where: filter });
         } catch (error) {
             throw new DbError("Rendelések lekérése sikertelen", {
                 details: error.message,

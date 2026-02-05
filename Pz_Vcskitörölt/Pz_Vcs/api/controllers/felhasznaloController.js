@@ -4,7 +4,8 @@ const { felhasznaloService } = require("../service")(db);
 // GET /felhasznalok
 exports.getFelhasznalok = async (req, res, next) => {
     try {
-        res.status(200).json(await felhasznaloService.getFelhasznalok());
+        const filter = req.felhasznaloFilter || {};
+        res.status(200).json(await felhasznaloService.getFelhasznalok(filter));
     } catch (error) {
         next(error);
     }

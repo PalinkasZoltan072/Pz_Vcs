@@ -9,8 +9,8 @@ class RendelesService {
     }
 
     
-    async getRendelesek() {
-        return await this.rendelesRepository.getAll();
+    async getRendelesek(filter={}) {
+        return await this.rendelesRepository.getAll(filter);
     }
 
     

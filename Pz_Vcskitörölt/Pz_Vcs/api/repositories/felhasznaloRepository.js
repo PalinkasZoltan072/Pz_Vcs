@@ -1,3 +1,4 @@
+const { where } = require("sequelize");
 const { DbError } = require("../errors");
 //users alapjan csinaltamm
 class FelhasznaloRepository {
@@ -6,9 +7,9 @@ class FelhasznaloRepository {
     }
 
 
-    async getAll() { // összes user lekerese
+    async getAll(filter = {}) { // összes user lekerese
         try {
-            return await this.Felhasznalo.findAll();
+            return await this.Felhasznalo.findAll({ where: filter });
         } catch (error) {
             throw new DbError("Felhasználók lekérése sikertelen", {
                 details: error.message,

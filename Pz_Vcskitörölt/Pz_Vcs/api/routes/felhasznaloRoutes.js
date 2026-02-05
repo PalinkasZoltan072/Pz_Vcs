@@ -1,9 +1,11 @@
 const express = require("express");
 const router = express.Router();
 
+const felhasznaloFilter = require("../middlewares/felhasznaloFilter");
 const felhasznaloController = require("../controllers/felhasznaloController");
 
-router.get("/", felhasznaloController.getFelhasznalok);
+router.get("/", felhasznaloFilter, felhasznaloController.getFelhasznalok);
+
 router.get("/:id", felhasznaloController.getFelhasznalo);
 router.post("/", felhasznaloController.createFelhasznalo);
 

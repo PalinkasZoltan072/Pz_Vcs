@@ -3,7 +3,8 @@ const { cipoService } = require("../service")(db);
 
 exports.getCipok = async (req, res, next) => {
     try {
-        res.status(200).json(await cipoService.getCipok());
+        const filter = req.cipoFilter || {};
+        res.status(200).json(await cipoService.getCipok(filter));
     } catch (error) {
         next(error);
     }

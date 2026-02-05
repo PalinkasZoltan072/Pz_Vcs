@@ -7,8 +7,8 @@ class CipoService {
     }
 
     
-    async getCipok() {
-        return await this.cipoRepository.getAll();
+    async getCipok(filter = {}) {
+        return await this.cipoRepository.getAll(filter);
     }
 
     

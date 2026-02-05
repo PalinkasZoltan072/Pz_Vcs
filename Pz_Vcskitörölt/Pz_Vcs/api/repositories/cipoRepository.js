@@ -1,3 +1,4 @@
+const { where } = require("sequelize");
 const { DbError } = require("../errors");
 
 class CipoRepository {
@@ -7,9 +8,9 @@ class CipoRepository {
     }
 
     
-    async getAll() {
+    async getAll(filter = {}) { // filter a tomb amiben a filterek ( szuresi lehetosegek ) vannak
         try {
-            return await this.Cipo.findAll();
+            return await this.Cipo.findAll({where:filter});
         } catch (error) {
             throw new DbError("Cipők lekérése sikertelen", {
                 details: error.message,

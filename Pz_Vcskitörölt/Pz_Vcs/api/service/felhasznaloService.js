@@ -63,8 +63,8 @@ class FelhasznaloService {
     }
 
 
-    async getFelhasznalok() {
-        return await this.felhasznaloRepository.getAll(); // összest lekéri
+    async getFelhasznalok(filter={}) {
+        return await this.felhasznaloRepository.getAll(filter); // összest lekéri
     }
 
     

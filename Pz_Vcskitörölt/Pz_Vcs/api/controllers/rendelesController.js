@@ -3,7 +3,8 @@ const { rendelesService } = require("../service")(db);
 
 exports.getRendelesek = async (req, res, next) => {
     try {
-        res.status(200).json(await rendelesService.getRendelesek());
+        const filter = req.rendelesFilter || {};
+        res.status(200).json(await rendelesService.getRendelesek(filter));
     } catch (error) {
         next(error);
     }

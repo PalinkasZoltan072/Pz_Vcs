@@ -1,0 +1,120 @@
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.baml
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.g.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin_MarkupCompile.cache
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.g.resources
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfoInputs.cache
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfo.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.csproj.CoreCompileInputs.cache
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.exe
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.deps.json
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.runtimeconfig.json
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\refint\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.genruntimeconfig.cache
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\ref\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.baml
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.baml
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.g.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.g.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.baml
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.baml
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.g.cs
+C:\Users\CsibiCsabi\Downloads\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.exe
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.deps.json
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.runtimeconfig.json
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.baml
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.baml
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.baml
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.baml
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.baml
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin_MarkupCompile.cache
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.g.resources
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfoInputs.cache
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfo.cs
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.csproj.CoreCompileInputs.cache
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\refint\CipoBoltAdmin.dll
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.genruntimeconfig.cache
+C:\Users\v.csaba\Downloads\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\ref\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.exe
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.deps.json
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.runtimeconfig.json
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin_MarkupCompile.cache
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.g.resources
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfoInputs.cache
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfo.cs
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.csproj.CoreCompileInputs.cache
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\refint\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.genruntimeconfig.cache
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\ref\CipoBoltAdmin.dll
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\SzuresView.baml
+C:\Users\CsibiCsabi\OneDrive\Asztali gép\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\SzuresView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.exe
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.deps.json
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.runtimeconfig.json
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\bin\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\SzuresView.baml
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\CipokView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\FelhasznalokView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Login.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\Regisztracio.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\RendelesekView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\Views\SzuresView.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin_MarkupCompile.cache
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.g.resources
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfoInputs.cache
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.AssemblyInfo.cs
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.csproj.CoreCompileInputs.cache
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.dll
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\refint\CipoBoltAdmin.dll
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.pdb
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\CipoBoltAdmin.genruntimeconfig.cache
+C:\Users\v.csaba\Downloads\szovalwpf (2)\szovalwpf\szovalwpf\szovalwpf\obj\Debug\net8.0-windows\ref\CipoBoltAdmin.dll
