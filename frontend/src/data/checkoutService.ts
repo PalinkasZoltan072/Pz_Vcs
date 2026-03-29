@@ -57,3 +57,11 @@ export const getFelhasznaloRendelesek = async (userId: number) => {
   );
   return response.data;
 };
+// --- ÚJ FÜGGVÉNY A CÍM FRISSÍTÉSÉHEZ ---
+export const updateFelhasznaloCim = async (userId: number, telepules: string): Promise<void> => {
+  await axios.patch(
+    `${API_URL}/felhasznalok/${userId}`,
+    { telepules },
+    getAuthHeader()
+  );
+};

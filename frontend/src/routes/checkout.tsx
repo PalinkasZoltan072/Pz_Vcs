@@ -4,9 +4,9 @@ import { useState } from "react";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, LogIn } from "lucide-react";
-import { getFelhasznalo, getTokenPayload, createRendeles } from "../data/checkoutService";
+// Itt beimportáltuk az új updateFelhasznaloCim függvényt is!
+import { getFelhasznalo, getTokenPayload, createRendeles, updateFelhasznaloCim } from "../data/checkoutService";
 
-// Importáljuk a frissen létrehozott komponenseket!
 import { AddressSection } from "../components/checkout/AddressSection";
 import { PaymentSection } from "../components/checkout/PaymentSection";
 import { OrderSummary } from "../components/checkout/OrderSummary";
@@ -45,18 +45,14 @@ function CheckoutPage() {
 
   const { mutate: rendelesekLeadas, isPending } = useMutation({
     mutationFn: async () => {
+      
+      // 1. Cím frissítése (MOST MÁR A SERVICE-T HASZNÁLJUK FETCH HELYETT!)
       if (!hasFullAddress && cimMentve && utca && hazszam) {
         const teljesCim = `${felhasznalo?.telepules}, ${utca} ${hazszam}`;
-        await fetch(`http://localhost:4000/felhasznalok/${userId}`, {
-          method: "PATCH",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${localStorage.getItem("token")}`,
-          },
-          body: JSON.stringify({ telepules: teljesCim }),
-        });
+        await updateFelhasznaloCim(userId!, teljesCim);
       }
 
+      // 2. Rendelések leadása
       for (const item of cart) {
         await createRendeles({
           cipoId: item.id,
