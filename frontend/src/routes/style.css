@@ -1,0 +1,23 @@
+div{
+    margin: 5px;
+}
+label{
+    margin-right: 20px;
+}
+input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 10px;
+}
+.hozzaadas_blokk{   
+    border: 1px solid gray;
+    width: 350px;
+}
+button{
+    background-color: azure;
+    margin: 5px 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 8px gray inset ,-2px -2px 8px gray inset;
+}
