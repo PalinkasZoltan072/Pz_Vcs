@@ -1,75 +1,92 @@
-import { useState } from "react"
 import { useMutation } from "@tanstack/react-query"
 import { useNavigate } from "@tanstack/react-router"
-import { loginUser } from "../data/authService"
+import { useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { useAuth } from '../context/AuthContext'
+import { loginUser, loginSchema } from "../data/authService"
 import type { Bejelentkezes } from "../data/authService"
 
+// Shadcn UI importok
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+
 function Login() {
+  const { login } = useAuth()
+  const navigate = useNavigate()
 
-  const [email,setEmail] = useState<string>("")
-  const [jelszo,setJelszo] = useState<string>("")
-    const navigate = useNavigate()
-  const { mutate: bejelentkezes } = useMutation({
 
-    mutationFn: (data: Bejelentkezes) => loginUser(data),
-
-    onSuccess(){
-      alert("Sikeres bejelentkezés!")
-      setEmail("")
-      setJelszo("")
-      navigate({ to: "/" })
-    },
-
-    onError(){
-      alert("Hibás email vagy jelszó")
+  // React Hook Form beállítása a Shadcn számára
+  const form = useForm<Bejelentkezes>({
+    resolver: zodResolver(loginSchema),
+    defaultValues: {
+      email: "",
+      jelszo: ""
     }
-
   })
 
-  const loginHandler = () => {
-
-    const bejelentkezesAdat: Bejelentkezes = {
-      email: email,
-      jelszo: jelszo
+  const { mutate: bejelentkezes, isPending } = useMutation({
+    mutationFn: (data: Bejelentkezes) => loginUser(data),
+    onSuccess(data) {
+      login(data.token)
+      alert("Sikeres bejelentkezés!")
+      navigate({ to: "/" })
+    },
+    onError() {
+      alert("Hibás email vagy jelszó!")
     }
+  })
 
-    bejelentkezes(bejelentkezesAdat)
-
+  const onSubmit = (data: Bejelentkezes) => {
+    bejelentkezes(data)
   }
 
   return (
+    <div className="flex items-center justify-center min-h-[80vh] px-4">
+      <div className="w-full max-w-md p-8 space-y-6 bg-white border border-gray-200 rounded-xl shadow-sm">
+        <h2 className="text-2xl font-bold text-center text-gray-900">Bejelentkezés</h2>
 
-    <div className="container mt-5" style={{maxWidth:"400px"}}>
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
 
-      <h2 className="mb-4 text-center">Bejelentkezés</h2>
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Email</FormLabel>
+                  <FormControl>
+                    <Input placeholder="pelda@email.com" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
-      <input
-        className="form-control mb-3"
-        type="email"
-        placeholder="Email"
-        value={email}
-        onChange={(e)=>setEmail(e.target.value)}
-      />
+            <FormField
+              control={form.control}
+              name="jelszo"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Jelszó</FormLabel>
+                  <FormControl>
+                    <Input type="password" placeholder="••••••••" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
-      <input
-        className="form-control mb-3"
-        type="password"
-        placeholder="Jelszó"
-        value={jelszo}
-        onChange={(e)=>setJelszo(e.target.value)}
-      />
+            <Button type="submit" disabled={isPending} className="w-full mt-6">
+              {isPending ? "Bejelentkezés folyamatban..." : "Bejelentkezés"}
+            </Button>
 
-      <button
-        className="btn btn-success w-100"
-        onClick={loginHandler}
-      >
-        Bejelentkezés
-      </button>
-
+          </form>
+        </Form>
+      </div>
     </div>
 
   )
-
 }
 
 export default Login
