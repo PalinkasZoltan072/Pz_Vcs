@@ -23,7 +23,7 @@ export function CartSheet() {
         </button>
       </SheetTrigger>
 
-      {/* A flex-col marad, de a tartalom igazításán változtatunk */}
+      
       <SheetContent className="w-full sm:max-w-md flex flex-col h-full">
         <SheetHeader className="border-b pb-4">
           <SheetTitle className="flex items-center gap-2 text-xl font-black">
@@ -31,7 +31,7 @@ export function CartSheet() {
           </SheetTitle>
         </SheetHeader>
 
-        {/* Ez a rész csak akkora helyet foglal, amennyi kell neki */}
+        
         <div className="flex-1 overflow-y-auto py-4">
           {cart.length === 0 ? (
             <div className="text-center py-20 text-gray-500 font-medium">
@@ -62,8 +62,7 @@ export function CartSheet() {
                 </div>
               ))}
 
-              {/* ITT A LÉNYEG: Az összesítőt és a gombot betettük a lista VÉGÉRE */}
-              {/* Így közvetlenül az utolsó termék alatt lesznek, nem a képernyő alján */}
+             
               <div className="pt-6 border-t border-dashed space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-500 font-medium">Összeg:</span>

@@ -3,9 +3,7 @@ const bcrypt = require("bcrypt");
 async function seed(db) {
   console.log("Seeding started...");
 
-  // ======================
-  // ADMIN
-  // ======================
+  
   const adminExists = await db.Admin.findOne({ where: { email: "admin@gmail.com" } });
   if (!adminExists) {
     await db.Admin.create({
@@ -15,9 +13,7 @@ async function seed(db) {
     });
   }
 
-  // ======================
-  // USER
-  // ======================
+ 
   let user = await db.Felhasznalo.findOne({ where: { email: "user@gmail.com" } });
   if (!user) {
     user = await db.Felhasznalo.create({
@@ -29,9 +25,7 @@ async function seed(db) {
     });
   }
 
-  // ======================
-  // CIPŐK - PONTOSAN a mappák nevei alapján!
-  // ======================
+  
   const existingCipo = await db.Cipo.findOne({ where: { nev: "Air Jordan 1 Mid" } });
 
   if (!existingCipo) {
@@ -66,9 +60,7 @@ async function seed(db) {
     const createdShoes = await db.Cipo.bulkCreate(cipokData);
     console.log(`${createdShoes.length} cipő létrehozva.`);
 
-    // ======================
-    // MÉRETEK
-    // ======================
+   
     const meretek = [];
     for (const shoe of createdShoes) {
       for (let meret = 38; meret <= 46; meret++) {
@@ -78,9 +70,7 @@ async function seed(db) {
     await db.CipoMeret.bulkCreate(meretek);
     console.log("Méretek létrehozva.");
 
-    // ======================
-    // KÉPEK - kezdokep.avif + 2.avif-től max 8.avif-ig
-    // ======================
+   
     const kepek = [];
     for (const shoe of createdShoes) {
       // Fő kép
@@ -95,9 +85,7 @@ async function seed(db) {
     console.log("Képek létrehozva (kezdokep.avif + 2-8.avif).");
   }
 
-  // ======================
-  // RENDELÉS
-  // ======================
+ 
   const cipo = await db.Cipo.findOne({ where: { nev: "Air Jordan 1 Mid" } });
   
   if (cipo) {

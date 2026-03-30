@@ -8,7 +8,7 @@ import { useAuth } from '../context/AuthContext'
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { isLoggedIn, logout } = useAuth()  // 👈 Ez az új sor
-  // Szigorú bejelentkezés állapot (alapból false, azaz Bejelentkezés/Regisztráció látszik)
+  
   
 
   
@@ -25,7 +25,7 @@ function Navbar() {
   const handleLogout = () => {
     
     logout();
-    window.location.href = "/"; // Visszadob a főoldalra és frissít
+    window.location.href = "/"; 
   }
 
   return (
@@ -33,24 +33,24 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           
-          {/* BAL OLDAL: Logó */}
+         
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-2xl font-black tracking-tighter" onClick={closeMenu}>
               CIPŐ<span className="text-blue-600">BOLT</span>
             </Link>
           </div>
           
-          {/* KÖZÉP: Asztali linkek */}
+         
           <div className="hidden md:flex space-x-8">
             <Link to="/" className="text-gray-600 hover:text-black font-medium transition-colors">
               Kezdő oldal
             </Link>
           </div>
           
-          {/* JOBB OLDAL: Asztali gombok */}
+      
           <div className="hidden md:flex items-center space-x-4">
             {isLoggedIn ? (
-              // --- HA SIKERES BEJELENTKEZÉS VAN (PROFIL + KIJELENTKEZÉS) ---
+              
               <div className="flex items-center space-x-2">
                 <Link to="/profile">
                   <Button variant="outline" className="font-bold gap-2">
@@ -66,7 +66,7 @@ function Navbar() {
                 </Button>
               </div>
             ) : (
-              // --- ALAPÁLLAPOT: HA NINCS BEJELENTKEZVE (BEJELENTKEZÉS + REGISZTRÁCIÓ) ---
+              
               <div className="flex items-center space-x-2">
                 <Link to="/login">
                   <Button variant="ghost" className="font-medium">Bejelentkezés</Button>
@@ -80,7 +80,7 @@ function Navbar() {
             <CartSheet />
           </div>
           
-          {/* MOBIL HAMBURGER GOMB */}
+      
           <div className="flex items-center md:hidden">
             <div className="mr-2">
               <CartSheet />
@@ -98,7 +98,7 @@ function Navbar() {
         </div>
       </div>
       
-      {/* MOBIL LENYÍLÓ MENÜ */}
+   
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100">
           <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3 shadow-inner">
@@ -111,7 +111,7 @@ function Navbar() {
             </Link>
 
             {isLoggedIn ? (
-              // --- MOBIL: HA SIKERES BEJELENTKEZÉS VAN ---
+              
               <>
                 <Link 
                   to="/profile" 
@@ -128,7 +128,7 @@ function Navbar() {
                 </button>
               </>
             ) : (
-              // --- MOBIL: ALAPÁLLAPOT ---
+              
               <>
                 <Link 
                   to="/login" 

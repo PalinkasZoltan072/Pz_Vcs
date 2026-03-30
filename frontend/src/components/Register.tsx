@@ -112,7 +112,7 @@ return (
               <FormItem>
                 <FormLabel>Irányítószám</FormLabel>
                 <FormControl>
-                  {/* A onChange itt automatikusan Number-ré alakítja a beírt értéket */}
+                  
                   <Input 
                     type="number" 
                     placeholder="1000" 

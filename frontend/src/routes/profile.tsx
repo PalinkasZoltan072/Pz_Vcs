@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { LogOut } from "lucide-react";
 import { getFelhasznalo, getTokenPayload, getFelhasznaloRendelesek } from "../data/checkoutService";
 
-// Importáljuk a friss komponenseinket!
+// Importáljuk komponenseinket!
 import { ProfileInfo } from "../components/profile/ProfilInfo";
 import { OrderHistory } from "../components/profile/OrderHistory";
 

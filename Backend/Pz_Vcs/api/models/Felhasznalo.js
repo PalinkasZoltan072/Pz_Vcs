@@ -26,13 +26,12 @@ module.exports = (sequelize, DataTypes)=>{
             felhasznalonev:{
                 type:DataTypes.STRING(25),
                 allowNull:false,
-                unique:true, // egyedi felhasznalonev altalaban ilyen van nem? 
+                unique:true, 
             },
             jelszo:{
-                type:DataTypes.STRING, // limitalva mert a faszom hash vagy 60+ karakterű
+                type:DataTypes.STRING, // limitalva mert hash vagy 60+ karakterű
                 allowNull:false,
-                //hashelni kell valahogy elv?
-                //lehetne hogy muszaj egy specialis karaktert beleirni vagy kötelező számnak lenni benne
+               
 
             },
             telepules:{
@@ -45,11 +44,7 @@ module.exports = (sequelize, DataTypes)=>{
             }, 
 
 
-            //az agrajzban nincs cim még
-            //utca meg rendes cím kéne nem?
-            // cim:{
-            //     type: DataTypes.VARCHAR(30) // leirni placeholderbe egy mintat hogy hogy kerjuk megadni az utcat és házszámot 
-            // }
+           
 
 
 

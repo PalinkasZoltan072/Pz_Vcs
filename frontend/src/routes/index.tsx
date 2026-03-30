@@ -11,16 +11,13 @@ component: HomePage,
 function HomePage() {
 const [cipok, setCipok] = useState<Cipo[]>([])
 
-// Ez tárolja, hogy miket gépelt be a user a bal oldali sávban
-const [filters, setFilters] = useState<CipoFilters>({})
 
-// Ez egy "kapcsoló", amit ha átbillentünk, újra lekéri az adatokat
+const [filters, setFilters] = useState<CipoFilters>({})
 const [triggerSearch, setTriggerSearch] = useState(0)
 
 useEffect(() => {
-// Amikor betölt az oldal, VAGY rányom a "Szűrés alkalmazása" gombra, lefut!
 getCipok(filters).then(setCipok)
-}, [triggerSearch]) // <-- Figyeli a gombnyomást
+}, [triggerSearch])
 
 const handleSearch = () => {
 setTriggerSearch(prev => prev + 1)
@@ -35,7 +32,7 @@ return (
 
   <div className="flex flex-col md:flex-row gap-8">
     
-    {/* BAL OLDAL: A Szűrő (Kb. 25% szélesség) */}
+    
     <div className="w-full md:w-1/4">
       <FilterSidebar 
         filters={filters} 
@@ -44,7 +41,7 @@ return (
       />
     </div>
 
-    {/* JOBB OLDAL: A Cipő Kártyák (Kb. 75% szélesség) */}
+   
     <div className="w-full md:w-3/4">
       
       {cipok.length > 0 ? (

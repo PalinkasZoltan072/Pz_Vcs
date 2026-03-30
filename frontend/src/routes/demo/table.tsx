@@ -37,21 +37,18 @@ declare module '@tanstack/react-table' {
   }
 }
 
-// Define a custom fuzzy filter function that will apply ranking info to rows (using match-sorter utils)
+
 const fuzzyFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
-  // Rank the item
+ 
   const itemRank = rankItem(row.getValue(columnId), value)
 
-  // Store the itemRank info
   addMeta({
     itemRank,
   })
 
-  // Return if the item should be filtered in/out
   return itemRank.passed
 }
 
-// Define a custom fuzzy sort function that will sort by rank if the row has ranking information
 const fuzzySort: SortingFn<any> = (rowA, rowB, columnId) => {
   let dir = 0
 
@@ -63,7 +60,7 @@ const fuzzySort: SortingFn<any> = (rowA, rowB, columnId) => {
     )
   }
 
-  // Provide an alphanumeric fallback for when the item ranks are equal
+
   return dir === 0 ? sortingFns.alphanumeric(rowA, rowB, columnId) : dir
 }
 
@@ -79,28 +76,27 @@ function TableDemo() {
     () => [
       {
         accessorKey: 'id',
-        filterFn: 'equalsString', //note: normal non-fuzzy filter column - exact match required
+        filterFn: 'equalsString', 
       },
       {
         accessorKey: 'firstName',
         cell: (info) => info.getValue(),
-        filterFn: 'includesStringSensitive', //note: normal non-fuzzy filter column - case sensitive
+        filterFn: 'includesStringSensitive', 
       },
       {
         accessorFn: (row) => row.lastName,
         id: 'lastName',
         cell: (info) => info.getValue(),
         header: () => <span>Last Name</span>,
-        filterFn: 'includesString', //note: normal non-fuzzy filter column - case insensitive
+        filterFn: 'includesString', 
       },
       {
         accessorFn: (row) => `${row.firstName} ${row.lastName}`,
         id: 'fullName',
         header: 'Full Name',
         cell: (info) => info.getValue(),
-        filterFn: 'fuzzy', //using our custom fuzzy filter function
-        // filterFn: fuzzyFilter, //or just define with the function
-        sortingFn: fuzzySort, //sort by fuzzy rank (falls back to alphanumeric)
+        filterFn: 'fuzzy',
+        sortingFn: fuzzySort, 
       },
     ],
     [],
@@ -113,7 +109,7 @@ function TableDemo() {
     data,
     columns,
     filterFns: {
-      fuzzy: fuzzyFilter, //define as a filter function that can be used in column definitions
+      fuzzy: fuzzyFilter, 
     },
     state: {
       columnFilters,
@@ -121,9 +117,9 @@ function TableDemo() {
     },
     onColumnFiltersChange: setColumnFilters,
     onGlobalFilterChange: setGlobalFilter,
-    globalFilterFn: 'fuzzy', //apply fuzzy filter to the global filter (most common use case for fuzzy filter)
+    globalFilterFn: 'fuzzy', 
     getCoreRowModel: getCoreRowModel(),
-    getFilteredRowModel: getFilteredRowModel(), //client side filtering
+    getFilteredRowModel: getFilteredRowModel(), 
     getSortedRowModel: getSortedRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
     debugTable: true,
@@ -131,7 +127,7 @@ function TableDemo() {
     debugColumns: false,
   })
 
-  //apply the fuzzy sort if the fullName column is being filtered
+
   React.useEffect(() => {
     if (table.getState().columnFilters[0]?.id === 'fullName') {
       if (table.getState().sorting[0]?.id !== 'fullName') {
@@ -326,7 +322,7 @@ function Filter({ column }: { column: Column<any, unknown> }) {
   )
 }
 
-// A typical debounced input react component
+
 function DebouncedInput({
   value: initialValue,
   onChange,

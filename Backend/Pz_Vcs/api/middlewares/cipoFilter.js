@@ -17,9 +17,7 @@ module.exports = function cipoFilter(req, res, next) {
     filter.tipus = tipus.trim();
   }
 
-  // ======================
-  // MÉRET SZŰRÉS (Sequelize.col)
-  // ======================
+ 
   if (meret) {
 
     const meretek = Array.isArray(meret)

@@ -110,9 +110,7 @@ class RendelesService {
 
         return await this.rendelesRepository.delete(id, options);
     }
-    // ======================
-// KOSÁR FUNKCIÓK
-// ======================
+
 
 async getCart(userId, options = {}) {
     return await this.rendelesRepository.getCartByUser(userId, options);

@@ -8,6 +8,6 @@ app.listen(port, () => {
 
 
 
-// ezzel futtatod a dolgokat npx nodemon api/server.js
+
 // uj futtatashoz cd api
 // npx nodemon server.js

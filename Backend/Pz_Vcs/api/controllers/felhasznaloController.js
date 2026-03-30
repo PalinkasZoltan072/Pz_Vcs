@@ -12,7 +12,7 @@ exports.login = async (req, res, next) => {
     }
 };
 
-// GET /felhasznalok
+
 exports.getFelhasznalok = async (req, res, next) => {
     try {
         const filter = req.felhasznaloFilter || {};
@@ -27,7 +27,6 @@ exports.getFelhasznalok = async (req, res, next) => {
     }
 };
 
-// GET /felhasznalok/:id
 exports.getFelhasznalo = async (req, res, next) => {
     try {
         const id = Number(req.params.id);
@@ -48,7 +47,7 @@ exports.getFelhasznalo = async (req, res, next) => {
     }
 };
 
-// POST /felhasznalok
+
 exports.createFelhasznalo = async (req, res, next) => {
     try {
         const result = await felhasznaloService.createFelhasznalo(req.body, {
@@ -61,7 +60,7 @@ exports.createFelhasznalo = async (req, res, next) => {
     }
 };
 
-// PUT /felhasznalok/:id
+
 exports.updateFelhasznalo = async (req, res, next) => {
     try {
         const id = Number(req.params.id);
@@ -82,12 +81,12 @@ exports.updateFelhasznalo = async (req, res, next) => {
     }
 };
 
-// DELETE /felhasznalok/:id
+
 exports.deleteFelhasznalo = async (req, res, next) => {
     try {
         const id = Number(req.params.id);
 
-        if (req.user.role !== "admin" && req.user.id !== id) { // sajat magat törölhet a user mondjuk pl dc-n is
+        if (req.user.role !== "admin" && req.user.id !== id) { 
             throw new UnauthorizedError(
                 "Nincs jogosultság más felhasználó törléséhez"
             );

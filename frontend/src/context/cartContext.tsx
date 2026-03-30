@@ -13,9 +13,9 @@ interface CartContextType {
   cart: CartItem[];
   addToCart: (item: CartItem) => void;
   removeFromCart: (id: number, meret: number) => void;
-  clearCart: () => void;          // ← ÚJ
+  clearCart: () => void;          
   cartCount: number;
-  totalSum: number;               // ← ÚJ (CartSheet-ből idehozva)
+  totalSum: number;               
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);

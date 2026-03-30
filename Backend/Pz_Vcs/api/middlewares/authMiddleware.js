@@ -5,7 +5,7 @@ exports.authenticate = (req, res, next) => {
     const authHeader = req.headers.authorization;
 
     if (!authHeader || !authHeader.startsWith("Bearer ")){
-        // console.log("van token")
+        
         return next(new UnauthorizedError("Token hiányzik"));
     
     } // ez a szabvany hogy "Bearer és token" a swagger így működik jól és minden forntendes library így várja (idézőjelek nélkül)
@@ -18,7 +18,7 @@ exports.authenticate = (req, res, next) => {
         req.user = decoded;
         next();
     } catch (error) {
-        // console.log("érvénytelen volt a token")
+       
         return next(new UnauthorizedError("Érvénytelen token"));
     }
 };

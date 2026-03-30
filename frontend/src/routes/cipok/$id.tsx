@@ -52,13 +52,13 @@ function CipoDetailPage() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="flex flex-col md:flex-row gap-12">
         
-        {/* ================= BAL OLDAL: KÉPGALÉRIA lapozóval ================= */}
+        
         <div className="w-full md:w-1/2">
           {/* Fő nagy kép a nyilakkal */}
           <div className="relative aspect-square bg-gray-50 rounded-2xl overflow-hidden border border-gray-100 group">
             <img src={kepUrl} alt={cipo.nev} className="w-full h-full object-cover" />
             
-            {/* Nyilak csak akkor jelennek meg, ha több mint 1 kép van, és a kép fölé visszük az egeret */}
+            
             {kepek.length > 1 && (
               <>
                 <button onClick={prevImage} className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow-md hover:bg-white transition opacity-0 group-hover:opacity-100">
@@ -71,7 +71,7 @@ function CipoDetailPage() {
             )}
           </div>
 
-          {/* Kis indexképek (Thumbnails) alul */}
+      
           {kepek.length > 1 && (
             <div className="flex gap-4 mt-4 overflow-x-auto pb-2 px-1">
               {kepek.map((kep, idx) => (
@@ -87,7 +87,7 @@ function CipoDetailPage() {
           )}
         </div>
 
-        {/* ================= JOBB OLDAL: ADATOK ÉS VÁSÁRLÁS ================= */}
+      
         <div className="w-full md:w-1/2 flex flex-col pt-4">
           
           <p className="text-gray-500 font-bold tracking-widest uppercase text-sm">{cipo.marka}</p>
@@ -121,7 +121,7 @@ function CipoDetailPage() {
             )}
           </div>
 
-          {/* MENNYISÉG */}
+         
           <div className="mb-8">
             <h3 className="text-lg font-bold text-gray-900 mb-3">Mennyiség</h3>
             <div className="flex items-center border-2 border-gray-200 rounded-lg w-max bg-white">
@@ -141,7 +141,7 @@ function CipoDetailPage() {
             </div>
           </div>
 
-          {/* ÖSSZEGZÉS ÉS KOSÁR GOMB */}
+          
           <div className="mt-auto bg-gray-50 p-6 rounded-2xl border border-gray-100">
             <div className="flex justify-between items-center mb-4">
               <span className="text-gray-600 font-medium">Kiválasztott méret:</span>

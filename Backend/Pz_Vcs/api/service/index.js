@@ -10,7 +10,7 @@ module.exports = (db) =>
     const cipoService = new CipoService(db);
     const rendelesService = new RendelesService(db);
     const adminService = new AdminService(db)
-    // const bankkartyaService = new BankkartyaService(db);
+  
 
     return {felhasznaloService, cipoService,rendelesService, adminService}//bankkartyaService};
 }

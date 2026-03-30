@@ -7,7 +7,7 @@ module.exports = (sequelize) =>{
     const Felhasznalo = require("./Felhasznalo")(sequelize,DataTypes)
     const Rendeles = require("./Rendeles")(sequelize,DataTypes)
     const Admin = require("./Admin")(sequelize, DataTypes)
-    const CipoMeret = require("./CipoMeret")(sequelize,DataTypes) // nem tudom biztosra kell e ide is a datatypes de biztos ami tuti
+    const CipoMeret = require("./CipoMeret")(sequelize,DataTypes) 
     const CipoKep = require("./CipoKep")(sequelize,DataTypes)
     
     Cipo.hasMany(Rendeles,{

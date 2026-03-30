@@ -48,7 +48,7 @@ exports.createRendeles = async (req, res, next) => {
                 Cipo_id: cipoId,
                 mennyiseg,
                 fizetes,
-                meret, // 2. Átadjuk az adatbázisnak!
+                meret, 
                 allapot: "szállítás alatt",
             },
             {
@@ -61,29 +61,7 @@ exports.createRendeles = async (req, res, next) => {
         next(error);
     }
 };
-// exports.createRendeles = async (req, res, next) => {
-//     try {
-//         const userId = req.user.id;
-//         const { cipoId, mennyiseg, fizetes } = req.body;
 
-//         const result = await rendelesService.createRendeles(
-//             {
-//                 Felhasznalo_id: userId,
-//                 Cipo_id: cipoId,
-//                 mennyiseg,
-//                 fizetes,
-//                 allapot: "szállítás alatt",
-//             },
-//             {
-//                 transaction: req.transaction,
-//             }
-//         );
-
-//         res.status(201).json(result);
-//     } catch (error) {
-//         next(error);
-//     }
-// };
 
 exports.updateRendeles = async (req, res, next) => {
     try {
@@ -115,9 +93,7 @@ exports.deleteRendeles = async (req, res, next) => {
         next(error);
     }
 };
-// ======================
-// KOSÁR
-// ======================
+
 
 exports.getCart = async (req, res, next) => {
     try {

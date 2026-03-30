@@ -9,7 +9,7 @@ class AdminService {
         this.adminRepository = require("../repositories")(db).adminRepository;
     }
 
-    // LOGIN → nem kell transaction
+    
     async login(email, jelszo) {
         if (!email || !jelszo)
             throw new BadRequestError("Email és jelszó kötelező");

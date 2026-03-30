@@ -46,13 +46,13 @@ function CheckoutPage() {
   const { mutate: rendelesekLeadas, isPending } = useMutation({
     mutationFn: async () => {
       
-      // 1. Cím frissítése (MOST MÁR A SERVICE-T HASZNÁLJUK FETCH HELYETT!)
+      
       if (!hasFullAddress && cimMentve && utca && hazszam) {
         const teljesCim = `${felhasznalo?.telepules}, ${utca} ${hazszam}`;
         await updateFelhasznaloCim(userId!, teljesCim);
       }
 
-      // 2. Rendelések leadása
+      //Rendelések leadása
       for (const item of cart) {
         await createRendeles({
           cipoId: item.id,

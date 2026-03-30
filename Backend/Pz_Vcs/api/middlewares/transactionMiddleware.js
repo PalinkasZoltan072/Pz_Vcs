@@ -8,7 +8,7 @@ exports.attachTransaction = async (req, res, next) => {
             if (!req.transaction) return; // Ha már lefutott, ne fusson le kétszer
             
             try {
-                // Ha a válaszkód sikeres, jóváhagyjuk a módosítást az adatbázisban
+                
                 if (res.statusCode >= 200 && res.statusCode < 400) {
                     await req.transaction.commit();
                 } else {

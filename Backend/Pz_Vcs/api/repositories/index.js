@@ -10,7 +10,7 @@ module.exports = (db) =>
      const felhasznaloRepository = new FelhasznaloRepository(db);
      const rendelesRepository = new RendelesRepository(db);
      const adminRepository = new AdminRepository(db)
-     //const bankkartyaRepository = new BankkartyaRepository(db);
+     
 
     return { felhasznaloRepository, cipoRepository, rendelesRepository, adminRepository}// bankkartyaRepository };
 }

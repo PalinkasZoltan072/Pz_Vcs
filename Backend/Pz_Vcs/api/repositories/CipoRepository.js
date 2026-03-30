@@ -24,9 +24,7 @@ class CipoRepository {
                       attributes:["url"]
                     }
                   ],
-                   // ======================
-            // FONTOS MÉRET FILTER MIATT
-            // ======================
+             
             distinct: true,
             subQuery: false,
                 transaction: options.transaction,

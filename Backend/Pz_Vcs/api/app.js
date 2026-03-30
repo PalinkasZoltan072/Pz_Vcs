@@ -11,10 +11,10 @@ const rendelesRoutes = require("./routes/rendelesRoutes");
 const adminRoutes = require("./routes/adminRoutes")
 
 const { swaggerUi, specs } = require("./config/swagger");
-const { notFound, showError } = require("./middlewares/errorHandler"); // kettőt exportal a errorhandler így kettő kell
+const { notFound, showError } = require("./middlewares/errorHandler"); 
 const { attachTransaction } = require("./middlewares/transactionMiddleware");
 const app = express();
-//npm install swagger-ui-express swagger-jsdoc ezt kell kiadni a swaggerhez doksiba elv kellenek ezek az npm i-k
+
 
 app.use(cors());
 app.use(express.json());

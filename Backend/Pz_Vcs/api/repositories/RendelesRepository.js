@@ -5,7 +5,7 @@ class RendelesRepository {
         this.Rendeles = db.Rendeles;
 
         
-        // HOZZÁADOTT MODELLEK INCLUDE-HOZ
+        
         
         this.Cipo = db.Cipo;
         this.CipoKep = db.CipoKep;
@@ -79,9 +79,7 @@ class RendelesRepository {
         }
     }
 
-    // ======================
-    // KOSÁR LEKÉRÉSHEZ HOZZÁADOTT METÓDUS
-    // ======================
+    
     async getCartByUser(userId, options = {}) {
         try {
             return await this.Rendeles.findAll({

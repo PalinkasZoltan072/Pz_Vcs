@@ -36,10 +36,10 @@ module.exports = (sequelize, DataTypes) =>{
                     max:55
                 }
             },
-            mennyiseg:{ // lehetne h max pl 100 termeket lehessen egyszerre venni vagy valamennyire leszabalyozni a db szamot
+            mennyiseg:{ 
                 type: DataTypes.INTEGER,
                 allowNull:false,
-                validate: { // ez így jó?
+                validate: { 
                     min:1,
                     max:100,
                 },
