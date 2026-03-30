@@ -1,8 +1,8 @@
-const CipoRepository = require("./cipoRepository");
-const FelhasznaloRepository = require("./felhasznaloRepository")
-const RendelesRepository = require("./rendelesRepository")
-const AdminRepository = require ("./adminRepository")
-const BankkartyaRepository = require("./bankkartyaRepository")
+const CipoRepository = require("./CipoRepository");
+const FelhasznaloRepository = require("./FelhasznaloRepository")
+const RendelesRepository = require("./RendelesRepository")
+const AdminRepository = require ("./AdminRepository")
+
 
 module.exports = (db) =>
 {

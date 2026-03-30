@@ -1,78 +1,52 @@
-// const { BadRequestError, NotFoundError } = require("../errors");
-// // ezt kell majd hasznalni de alaposan at kell irni hogy jó legyen a kódunkra és megérteni
-// const bcrypt = require("bcrypt");
-
-// const salt = 14;
-
-// class UserService
-// {
-//     constructor(db)
-//     {
-//         this.userRepository = require("../repositories")(db).userRepository;
-//     }
-
-//     async getUsers()
-//     {
-//         return await this.userRepository.getUsers();
-//     }
-
-//     async getUser(userID)
-//     {
-//         if(!userID) throw new BadRequestError("Missing user identification from payload");
-
-//         const user = await this.userRepository.getUser(userID);
-
-//         if(!user) throw new NotFoundError("User does not exist in our database", { data: { userID } });
-        
-//         return user;
-//     }
-
-//     async createUser(userData)
-//     {
-//         if(!userData) throw new BadRequestError("Missing user data when creating user object", 
-//         {
-//             data: userData,
-//         });
-
-//         if(!userData.name) throw new BadRequestError("Missing username from payload", 
-//         {
-//             data: userData,
-//         });
-
-//         if(!userData.password) throw new BadRequestError("Missing password from payload", 
-//         {
-//             data: userData,
-//         });
-
-//         userData.password = bcrypt.hashSync(userData.password, salt);
-
-//         return await this.userRepository.createUser(userData);
-//     }
-// }
-
-// module.exports = UserService;
 const { BadRequestError, NotFoundError } = require("../errors");
 const bcrypt = require("bcrypt");
+const emailService = require("./EmailService");
+const jwt = require("jsonwebtoken");
 
 const salt = 14;
 
 class FelhasznaloService {
     constructor(db) {
-        
         this.felhasznaloRepository = require("../repositories")(db).felhasznaloRepository;
     }
 
+    // LOGIN → nem kell transaction
+    async login(email, jelszo) {
+        if (!email || !jelszo)
+            throw new BadRequestError("Email és jelszó kötelező");
 
-    async getFelhasznalok(filter={}) {
-        return await this.felhasznaloRepository.getAll(filter); // összest lekéri
+        const user = await this.felhasznaloRepository.getByEmail(email);
+
+        if (!user)
+            throw new NotFoundError("Felhasználó nem található");
+
+        const isMatch = bcrypt.compareSync(jelszo, user.jelszo);
+        if (!isMatch)
+            throw new BadRequestError("Hibás jelszó");
+
+        const token = jwt.sign(
+            {
+                id: user.id,
+                role: "user"
+            },
+            process.env.JWT_SECRET,
+            {
+                expiresIn: process.env.JWT_EXPIRES_IN
+            }
+        );
+
+        return { token };
     }
 
-    
-    async getFelhasznalo(id) { // adottat kér le id alapján
+    async getFelhasznalok(filter = {}, options = {}) {
+        return await this.felhasznaloRepository.getAll(filter, options);
+    }
+
+    async getFelhasznalo(id, options = {}) {
         if (!id)
             throw new BadRequestError("Hiányzik az ID a kérésből", { data: { id } });
 
-        const user = await this.felhasznaloRepository.getById(id);
+        const user = await this.felhasznaloRepository.getById(id, options);
 
         if (!user)
             throw new NotFoundError("A felhasználó nem található az adatbázisban", {
@@ -82,9 +56,7 @@ class FelhasznaloService {
         return user;
     }
 
-    
-    async createFelhasznalo(userData) {
-        
+    async createFelhasznalo(userData, options = {}) {
         if (!userData)
             throw new BadRequestError("Hiányzik a felhasználó adat", { data: userData });
 
@@ -97,39 +69,52 @@ class FelhasznaloService {
         if (!userData.felhasznalonev)
             throw new BadRequestError("Hiányzik a felhasználónév", { data: userData });
 
-        
+        const existingUser = await this.felhasznaloRepository.getByEmail(userData.email, options);
+        if (existingUser)
+            throw new BadRequestError("Ez az email már regisztrálva van");
+
+        const existingUsername = await this.felhasznaloRepository.getByUsername(userData.felhasznalonev, options);
+        if (existingUsername)
+            throw new BadRequestError("Ez a felhasználónév már foglalt");
+
         userData.jelszo = bcrypt.hashSync(userData.jelszo, salt);
 
-        return await this.felhasznaloRepository.create(userData);
+        const newUser = await this.felhasznaloRepository.create(userData, options);
+
+        if (process.env.NODE_ENV !== "test") {
+            try {
+                await emailService.sendWelcomeEmail(newUser.email);
+            } catch (err) {
+                console.log("Email küldési hiba:", err.message);
+            }
+        }
+
+        return newUser;
     }
 
-    
-    async updateFelhasznalo(id, adatok) {
+    async updateFelhasznalo(id, adatok, options = {}) {
         if (!id)
             throw new BadRequestError("Hiányzik az ID a módosításhoz", { data: { id } });
 
-        
-        const user = await this.felhasznaloRepository.getById(id);
+        const user = await this.felhasznaloRepository.getById(id, options);
         if (!user)
             throw new NotFoundError("A felhasználó nem létezik", { data: { id } });
 
-        
         if (adatok.jelszo)
-            adatok.jelszo = bcrypt.hashSync(adatok.jelszo, salt); // ezt nem értem teljesen hogy működik a salt
+            adatok.jelszo = bcrypt.hashSync(adatok.jelszo, salt);
 
-        return await this.felhasznaloRepository.update(id, adatok);
+        return await this.felhasznaloRepository.update(id, adatok, options);
     }
 
-    
-    async deleteFelhasznalo(id) {
+    async deleteFelhasznalo(id, options = {}) {
         if (!id)
             throw new BadRequestError("Hiányzik az ID a törléshez", { data: { id } });
 
-        const user = await this.felhasznaloRepository.getById(id);
+        const user = await this.felhasznaloRepository.getById(id, options);
         if (!user)
             throw new NotFoundError("A felhasználó nem található", { data: { id } });
 
-        return await this.felhasznaloRepository.delete(id);
+        return await this.felhasznaloRepository.delete(id, options);
     }
 }
 

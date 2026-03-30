@@ -1,16 +1,29 @@
 const { DbError } = require("../errors");
 
-
-class adminRepository {
+class AdminRepository {
     constructor(db) {
-        // Itt kapjuk meg a Sequelize modelt (db-ből, pl. index.js-ből):
         this.Admin = db.Admin;
     }
 
-    
-    async getAll() {
+    async getByEmail(email, options = {}) {
         try {
-            return await this.Admin.findAll();
+            return await this.Admin.findOne({
+                where: { email },
+                transaction: options.transaction,
+            });
+        } catch (error) {
+            throw new DbError("Admin lekérése email alapján sikertelen", {
+                details: error.message,
+                data: { email },
+            });
+        }
+    }
+
+    async getAll(options = {}) {
+        try {
+            return await this.Admin.findAll({
+                transaction: options.transaction,
+            });
         } catch (error) {
             throw new DbError("Adminok lekérése sikertelen", {
                 details: error.message,
@@ -18,10 +31,11 @@ class adminRepository {
         }
     }
 
-    
-    async getById(id) {
+    async getById(id, options = {}) {
         try {
-            return await this.Admin.findByPk(id);
+            return await this.Admin.findByPk(id, {
+                transaction: options.transaction,
+            });
         } catch (error) {
             throw new DbError("Admin lekérése sikertelen", {
                 details: error.message,
@@ -30,10 +44,11 @@ class adminRepository {
         }
     }
 
-    
-    async create(data) {
+    async create(data, options = {}) {
         try {
-            return await this.Admin.create(data);
+            return await this.Admin.create(data, {
+                transaction: options.transaction,
+            });
         } catch (error) {
             throw new DbError("Admin létrehozása sikertelen", {
                 details: error.message,
@@ -42,11 +57,11 @@ class adminRepository {
         }
     }
 
-    
-    async update(id, data) {
+    async update(id, data, options = {}) {
         try {
             return await this.Admin.update(data, {
                 where: { id },
+                transaction: options.transaction,
             });
         } catch (error) {
             throw new DbError("Admin frissítése sikertelen", {
@@ -56,11 +71,11 @@ class adminRepository {
         }
     }
 
-    
-    async delete(id) {
+    async delete(id, options = {}) {
         try {
             return await this.Admin.destroy({
                 where: { id },
+                transaction: options.transaction,
             });
         } catch (error) {
             throw new DbError("Admin törlése sikertelen", {
@@ -70,4 +85,5 @@ class adminRepository {
         }
     }
 }
-module.exports = adminRepository;
+
+module.exports = AdminRepository;

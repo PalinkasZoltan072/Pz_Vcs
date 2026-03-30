@@ -1,28 +1,31 @@
-const { UnauthorizedError, ValidationError } = require("../errors");
+const jwt = require("jsonwebtoken");
+const { UnauthorizedError } = require("../errors");
 
-const authUtils = require("../utilities/authUtils");
+exports.authenticate = (req, res, next) => {
+    const authHeader = req.headers.authorization;
 
-exports.userIsLoggedIn = (req, res, next) =>
-{
-    const { user_token } = req.cookies || {};
+    if (!authHeader || !authHeader.startsWith("Bearer ")){
+        // console.log("van token")
+        return next(new UnauthorizedError("Token hiányzik"));
+    
+    } // ez a szabvany hogy "Bearer és token" a swagger így működik jól és minden forntendes library így várja (idézőjelek nélkül)
+        
 
-    if(!user_token) return next(new UnauthorizedError());
+    const token = authHeader.split(" ")[1];
 
-    try
-    {
-        req.user = authUtils.verifyToken(user_token);
+    try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        req.user = decoded;
+        next();
+    } catch (error) {
+        // console.log("érvénytelen volt a token")
+        return next(new UnauthorizedError("Érvénytelen token"));
     }
-    catch(error)
-    {
-        return next(new ValidationError("Failed to validate token"));
-    }
+};
+
+exports.isAdmin = (req, res, next) => {
+    if (!req.user || req.user.role !== "admin")
+        return next(new UnauthorizedError("Nincs admin jogosultság"));
 
     next();
-}
-
-exports.isAdmin = (req, res, next) =>
-{
-    if(!req.user.isAdmin) return next(new UnauthorizedError("You do not have the right privileges to access this feature"));
-
-    next();
-}
+};

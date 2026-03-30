@@ -1,7 +1,7 @@
-const FelhasznaloService = require("./felhasznaloService");
-const CipoService = require("./cipoService");
-const RendelesService = require("./rendelesService");
-const AdminService = require("./adminService")
+const FelhasznaloService = require("./FelhasznaloService");
+const CipoService = require("./CipoService");
+const RendelesService = require("./RendelesService");
+const AdminService = require("./AdminService")
 //const BankkartyaService = require("./bankkartyaService");
 
 module.exports = (db) =>

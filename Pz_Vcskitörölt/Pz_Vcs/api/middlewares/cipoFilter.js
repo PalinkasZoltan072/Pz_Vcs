@@ -1,4 +1,4 @@
-const { Op } = require("sequelize");
+const { Op, col } = require("sequelize");
 
 module.exports = function cipoFilter(req, res, next) {
   const { nev, marka, meret, tipus, minAr, maxAr } = req.query;
@@ -17,10 +17,22 @@ module.exports = function cipoFilter(req, res, next) {
     filter.tipus = tipus.trim();
   }
 
-  if (meret !== undefined && meret !== "") {
-    const m = Number(meret);
-    if (!Number.isNaN(m)) filter.meret = m;
+  // ======================
+  // MÉRET SZŰRÉS (Sequelize.col)
+  // ======================
+  if (meret) {
+
+    const meretek = Array.isArray(meret)
+      ? meret.map(Number)
+      : meret.split(",").map(Number);
+
+    filter["$Meretek.meret$"] = {
+      [Op.in]: meretek
+    };
+
   }
+
+
 
   if (minAr !== undefined && minAr !== "") {
     const a = Number(minAr);

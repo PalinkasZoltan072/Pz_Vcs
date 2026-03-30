@@ -9,14 +9,15 @@ module.exports = (sequelize, DataTypes) =>{
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 autoIncrement: true,
-                primaryKey: true
+                primaryKey:true
+                
             },
             allapot:{
-                type:DataTypes.ENUM("kiszállítva","szállítás alatt"),
+                type:DataTypes.ENUM("kosár","kiszállítva","szállítás alatt"),
                 allowNull: false,
                 validate:
                 {
-                    isIn: [ ["kiszállítva", "szállítás alatt"] ], //Models nevű órain csinaltuk így az enumokkal ez gondolom az hogy megegyezike e a felhasznaló által beküldött adat valamelyik enum mezőnkkel
+                    isIn: [ ["kosár","kiszállítva", "szállítás alatt"] ], //Models nevű órain csinaltuk így az enumokkal ez gondolom az hogy megegyezike e a felhasznaló által beküldött adat valamelyik enum mezőnkkel
                 }
             },
             fizetes:{
@@ -25,6 +26,14 @@ module.exports = (sequelize, DataTypes) =>{
                 validate:
                 {
                     isIn: [ ["kártyával", "utánvéttel"] ], //Models nevű órain csinaltuk így az enumokkal ez gondolom az hogy megegyezike e a felhasznaló által beküldött adat valamelyik enum mezőnkkel
+                }
+            },
+            meret:{
+                type: DataTypes.INTEGER,
+                allowNull:false,
+                validate:{
+                    min:30,
+                    max:55
                 }
             },
             mennyiseg:{ // lehetne h max pl 100 termeket lehessen egyszerre venni vagy valamennyire leszabalyozni a db szamot
@@ -39,7 +48,13 @@ module.exports = (sequelize, DataTypes) =>{
         {
             sequelize,
             modelName: "Rendeles",
-            timestamps: false
+            timestamps: false,
+            indexes:[
+                {
+                 unique:true,
+                 fields:["Felhasznalo_id","Cipo_id","meret","allapot"]
+                }
+                ]
         }
     )
     return Rendeles

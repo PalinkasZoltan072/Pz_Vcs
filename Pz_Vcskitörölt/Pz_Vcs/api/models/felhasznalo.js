@@ -14,10 +14,13 @@ module.exports = (sequelize, DataTypes)=>{
 
             },
             email:{ // cehckolni hogy helyes e az email formatum ..@.com
-                type:DataTypes.STRING(30),
+                type:DataTypes.STRING(40),
                 allowNull:false,
-                validate:{
-                    isEmail:true
+                unique: true,
+                validate: {
+                    isEmail: {
+                        msg: "Érvénytelen email formátum"
+                    }
                 }
             },
             felhasznalonev:{
@@ -26,7 +29,7 @@ module.exports = (sequelize, DataTypes)=>{
                 unique:true, // egyedi felhasznalonev altalaban ilyen van nem? 
             },
             jelszo:{
-                type:DataTypes.STRING(20),
+                type:DataTypes.STRING, // limitalva mert a faszom hash vagy 60+ karakterű
                 allowNull:false,
                 //hashelni kell valahogy elv?
                 //lehetne hogy muszaj egy specialis karaktert beleirni vagy kötelező számnak lenni benne
