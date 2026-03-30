@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CipoBoltAdmin.Models.CipoBoltAdmin.Models.Admin">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="szovalwpf.Models.Cipo">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAACAAAAAAAAAAAEAAAMBAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Cipo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.CipoFilter">
+    <Position X="17.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAAAACAAAAAAAAAAAAAAAEAAAgAAAAAAgAA=</HashCode>
+      <FileName>Models\CipoFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.CipoKep">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\CipoKep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.CipoMeret">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CipoMeret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.Felhasznalo">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAACEAAAAAAAAEAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Felhasznalo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.FelhasznaloFilter">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACEAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FelhasznaloFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.Rendeles">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAIAAAQAAAIAAIAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Models\Rendeles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Models.RendelesFilter">
+    <Position X="16" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAIAAAAAAAAIAAAAAIAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\RendelesFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Services.AdminService">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAAABAAAAAA=</HashCode>
+      <FileName>Services\AdminService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Services.CipoService">
+    <Position X="13" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgAAAAAAEAACAAACAAAAAAAACAIBEAABAAAAAA=</HashCode>
+      <FileName>Services\CipoService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Services.FelhasznaloService">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAQQAAAAAAAAAAECAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Services\FelhasznaloService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.Services.RendelesService">
+    <Position X="16.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABAAAAAAAAAiAACAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Services\RendelesService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CipoBoltAdmin.ApiClient">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ApiClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
