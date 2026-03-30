@@ -100,7 +100,7 @@ namespace CipoBoltAdmin.Views
                 Margin = new Thickness(0, 0, 0, 8)
             };
 
-            // ===== MÉRETEK =====
+            //  MÉRETEK
             var meretekPanel = new WrapPanel
             {
                 Margin = new Thickness(0, 0, 0, 8)
@@ -115,7 +115,7 @@ namespace CipoBoltAdmin.Views
                 });
             }
 
-            // ===== KÉPEK =====
+            //  KÉPEK 
             var txtKep = new TextBox
             {
                 Width = 200,
@@ -131,7 +131,7 @@ namespace CipoBoltAdmin.Views
                 Margin = new Thickness(0, 0, 0, 8)
             };
 
-            // ⭐ ide tároljuk a kiválasztott képeket
+            //  ide tároljuk a kiválasztott képeket
             List<string> selectedFiles = new();
 
             btnBrowse.Click += (_, _) =>
@@ -247,10 +247,10 @@ namespace CipoBoltAdmin.Views
 
                 if (ujCipo != null)
                 {
-                    // ===== MÉRETEK FELTÖLTÉSE =====
+                    // MÉRETEK FELTÖLTÉSE
                     await cipocontrol.AddCipoMeretAsync(ujCipo.Id, meretek);
 
-                    // ===== KÉPEK FELTÖLTÉSE =====
+                    // KÉPEK FELTÖLTÉSE
                     if (selectedFiles.Count > 0)
                     {
                         var urls = selectedFiles

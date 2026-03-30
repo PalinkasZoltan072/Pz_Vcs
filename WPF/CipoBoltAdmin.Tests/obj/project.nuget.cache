@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oANNVM+4jAo=",
+  "dgSpecHash": "VbGzWmOVzAM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CsibiCsabi\\Downloads\\Cipobolt_Vizsgaremek\\WPF\\CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj",
+  "projectFilePath": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CsibiCsabi\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\CsibiCsabi\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

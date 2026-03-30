@@ -16,7 +16,7 @@ namespace CipoBoltAdmin.Services
 
         private const string URL = "http://localhost:4000/rendelesek";
 
-        // ===== GET =====
+        
         public async Task<List<Rendeles>> GetRendelesekAsync()
         {
             try
@@ -41,7 +41,7 @@ namespace CipoBoltAdmin.Services
             }
         }
 
-        // ===== PATCH (állapot) =====
+        
         public async Task<bool> UpdateAllapotAsync(int id, string ujAllapot)
         {
             try
@@ -73,7 +73,7 @@ namespace CipoBoltAdmin.Services
             }
         }
 
-        // ===== DELETE =====
+        
         public async Task<bool> DeleteRendelesAsync(int id)
         {
             try

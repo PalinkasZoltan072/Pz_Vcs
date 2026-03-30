@@ -27,16 +27,16 @@ namespace CipoBoltAdmin.Services
         {
             try
             {
-                // 1️⃣ HTTP GET kérés
+                //  HTTP GET kérés
                 HttpResponseMessage response = await client.GetAsync(URL);
 
-                // 2️⃣ Hibakód esetén exception
+                //  Hibakód esetén exception
                 response.EnsureSuccessStatusCode();
 
-                // 3️⃣ JSON beolvasása stringbe
+                // JSON beolvasása stringbe
                 string json = await response.Content.ReadAsStringAsync();
 
-                // 4️⃣ JSON → List<Felhasznalo>
+                //  JSON → List<Felhasznalo>
                 List<Felhasznalo>? lista =
                     JsonSerializer.Deserialize<List<Felhasznalo>>(
                         json,
@@ -45,7 +45,7 @@ namespace CipoBoltAdmin.Services
                             PropertyNameCaseInsensitive = true
                         });
 
-                // 5️⃣ Null védelem
+                //  Null védelem
                 return lista ?? new List<Felhasznalo>();
             }
             catch (Exception ex)

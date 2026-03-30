@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CipoBoltAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d765293b4b751ea8e8becf1dd87912fbeb24fc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CipoBoltAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CipoBoltAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

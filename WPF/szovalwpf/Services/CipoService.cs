@@ -18,7 +18,7 @@ namespace CipoBoltAdmin.Services
         private const string BASE_URL = "http://localhost:4000/cipok";
         private const string CIPO_URL = BASE_URL + "/";
 
-        // ===== GET =====
+       
         public async Task<List<Cipo>> GetCipokAsync()
         {
             try
@@ -43,8 +43,8 @@ namespace CipoBoltAdmin.Services
         }
 
 
-        // ===== CREATE CIPO =====
-        // ===== MÓDOSÍTÁS: nincs többé méret =====
+        
+        //  nincs többé méret 
 
         public async Task<Cipo?> CreateCipoAsync(string nev, string marka, int ar, string tipus)
         {
@@ -93,7 +93,7 @@ namespace CipoBoltAdmin.Services
         }
 
 
-        // ===== ÚJ: MÉRET HOZZÁADÁSA =====
+      
 
         public async Task<bool> AddCipoMeretAsync(int cipoId, List<int> meret)
         {
@@ -101,7 +101,7 @@ namespace CipoBoltAdmin.Services
             {
                 var json = JsonSerializer.Serialize(new
                 {
-                    meretek = meret   //  JAVÍTÁS
+                    meretek = meret   
                 });
 
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -132,7 +132,7 @@ namespace CipoBoltAdmin.Services
         }
 
 
-        // ===== PATCH (ár módosítás) =====
+        
 
         public async Task<bool> UpdateArAsync(int id, int ujAr)
         {
@@ -173,7 +173,7 @@ namespace CipoBoltAdmin.Services
         }
 
 
-        // ===== DELETE =====
+        
 
         public async Task<bool> DeleteCipoAsync(int id)
         {
@@ -205,7 +205,7 @@ namespace CipoBoltAdmin.Services
         }
 
 
-        // ===== FILTERES GET =====
+        // FILTERES GET 
 
         public async Task<List<Cipo>> GetCipokFilteredAsync(CipoFilter filter)
         {
@@ -259,7 +259,7 @@ namespace CipoBoltAdmin.Services
         }
 
 
-        // ===== KÉP HOZZÁADÁS =====
+        //KÉP HOZZÁADÁS
 
         public async Task<bool> AddCipoKepAsync(int cipoId, List<string> urls)
         {

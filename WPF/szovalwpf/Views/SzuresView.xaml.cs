@@ -20,9 +20,7 @@ using szovalwpf.Models;
 
 namespace CipoBoltAdmin.Views
 {
-    /// <summary>
-    /// Interaction logic for SzuresView.xaml
-    /// </summary>
+    
     public partial class SzuresView : UserControl
     {
         public ObservableCollection<Cipo> TalalatokCipo { get; set; } = new();

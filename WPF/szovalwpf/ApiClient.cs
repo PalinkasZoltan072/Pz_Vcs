@@ -15,7 +15,7 @@ namespace CipoBoltAdmin
         public static void SetToken(string token)
         {
             Client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Bearer", token);
+                new AuthenticationHeaderValue("Bearer", token); // bearer kell ez a szabvany
         }
 
         public static void ClearToken()

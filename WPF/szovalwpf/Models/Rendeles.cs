@@ -14,7 +14,7 @@ namespace CipoBoltAdmin.Models
 
         public string Fizetes { get; set; }
 
-        public int Meret { get; set; }   // ⭐ EZ HIÁNYZOTT
+        public int Meret { get; set; }   
 
         public int Mennyiseg { get; set; }
 

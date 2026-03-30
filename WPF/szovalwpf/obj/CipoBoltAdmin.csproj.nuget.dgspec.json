@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CsibiCsabi\\Downloads\\Cipobolt_Vizsgaremek\\WPF\\szovalwpf\\CipoBoltAdmin.csproj": {}
+    "D:\\Pz_Vcs\\WPF\\szovalwpf\\CipoBoltAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CsibiCsabi\\Downloads\\Cipobolt_Vizsgaremek\\WPF\\szovalwpf\\CipoBoltAdmin.csproj": {
+    "D:\\Pz_Vcs\\WPF\\szovalwpf\\CipoBoltAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CsibiCsabi\\Downloads\\Cipobolt_Vizsgaremek\\WPF\\szovalwpf\\CipoBoltAdmin.csproj",
+        "projectUniqueName": "D:\\Pz_Vcs\\WPF\\szovalwpf\\CipoBoltAdmin.csproj",
         "projectName": "CipoBoltAdmin",
-        "projectPath": "C:\\Users\\CsibiCsabi\\Downloads\\Cipobolt_Vizsgaremek\\WPF\\szovalwpf\\CipoBoltAdmin.csproj",
+        "projectPath": "D:\\Pz_Vcs\\WPF\\szovalwpf\\CipoBoltAdmin.csproj",
         "packagesPath": "C:\\Users\\CsibiCsabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CsibiCsabi\\Downloads\\Cipobolt_Vizsgaremek\\WPF\\szovalwpf\\obj\\",
+        "outputPath": "D:\\Pz_Vcs\\WPF\\szovalwpf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

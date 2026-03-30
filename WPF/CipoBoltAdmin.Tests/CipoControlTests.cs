@@ -21,10 +21,10 @@ namespace CipoBoltAdmin.Tests
 
             admin = new AdminService();
 
-            // 1. Megpróbálunk belépni a seedelt adminnal
+            //  Megpróbálunk belépni a seedelt adminnal
             bool ok = await admin.LoginAsync("admin@gmail.com", "admin123");
 
-            // 2. HA NINCS ILYEN ADMIN, a teszt automatikusan létrehozza!
+            //  HA NINCS ILYEN ADMIN, a teszt automatikusan létrehozza!
             if (!ok)
             {
                 await admin.RegisterAsync("admin", "admin@gmail.com", "admin123");
@@ -34,29 +34,25 @@ namespace CipoBoltAdmin.Tests
 
             Assert.IsTrue(ok, "Admin login failed in test setup");
 
-            // FIGYELEM: Itt a control példányosítása fájlonként változik!
+            //  Itt a control példányosítása fájlonként változik!
              control = new CipoService();
             
         }
 
-        // ============================
-        // GET TESZT
-        // ============================
+       
 
         [Test]
         public async Task GetCipokAsync_ShouldReturnList()
         {
-            // Act
+           
             var result = await control.GetCipokAsync();
 
-            // Assert
+            
             Assert.IsNotNull(result);
             Assert.IsInstanceOf<List<Cipo>>(result);
         }
 
-        // ============================
-        // CREATE TESZT
-        // ============================
+        
 
         [Test]
         public async Task CreateCipoAsync_ValidData_ShouldReturnTrue()

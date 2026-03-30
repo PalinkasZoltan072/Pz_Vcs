@@ -16,9 +16,7 @@ using System.Windows.Shapes;
 
 namespace CipoBoltAdmin.Views
 {
-    /// <summary>
-    /// Interaction logic for UserControl1.xaml
-    /// </summary>
+    
     public partial class AdminCreateView : UserControl
     {
         private AdminService adminControl = new AdminService();
