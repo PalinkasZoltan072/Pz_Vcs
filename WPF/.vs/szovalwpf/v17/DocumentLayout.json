@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Pz_Vcs\\WPF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\cipocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\cipocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\szuresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,14 +115,6 @@
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\cipoboltadmin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\cipoboltadmin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -168,7 +168,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "FelhasznalokView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\FelhasznalokView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\FelhasznalokView.xaml.cs",
@@ -177,12 +177,11 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAswB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T00:04:48.109Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "FelhasznaloService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\FelhasznaloService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\FelhasznaloService.cs",
@@ -191,12 +190,15 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAcwB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T07:31:31.063Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "szovalwpf\\ClassDiagram1.cd",
@@ -207,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\ApiClient.cs",
               "RelativeDocumentMoniker": "szovalwpf\\ApiClient.cs",
@@ -220,44 +222,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CipoControlTests.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\CipoControlTests.cs",
               "RelativeDocumentMoniker": "CipoBoltAdmin.Tests\\CipoControlTests.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\CipoControlTests.cs",
               "RelativeToolTip": "CipoBoltAdmin.Tests\\CipoControlTests.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwJ0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T19:17:23.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
               "Title": "FelhasznaloControlTests.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\FelhasznaloControlTests.cs",
               "RelativeDocumentMoniker": "CipoBoltAdmin.Tests\\FelhasznaloControlTests.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\FelhasznaloControlTests.cs",
               "RelativeToolTip": "CipoBoltAdmin.Tests\\FelhasznaloControlTests.cs",
-              "ViewState": "AgIAAAEBAAAAAAAAAAAgwBkBAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:31:40.901Z"
+              "WhenOpened": "2026-02-04T19:31:40.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
               "Title": "RendelesControlTests.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\RendelesControlTests.cs",
               "RelativeDocumentMoniker": "CipoBoltAdmin.Tests\\RendelesControlTests.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\RendelesControlTests.cs",
               "RelativeToolTip": "CipoBoltAdmin.Tests\\RendelesControlTests.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwFUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAqwJkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:34:22.866Z"
+              "WhenOpened": "2026-02-04T19:34:22.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RendelesService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\RendelesService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\RendelesService.cs",
@@ -265,12 +269,11 @@
               "RelativeToolTip": "szovalwpf\\Services\\RendelesService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAcwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T19:25:03.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T19:25:03.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CipoService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\CipoService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\CipoService.cs",
@@ -278,12 +281,11 @@
               "RelativeToolTip": "szovalwpf\\Services\\CipoService.cs",
               "ViewState": "AgIAAPsAAAAAAAAAAAAYwAUBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T18:22:54.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T18:22:54.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AdminService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\AdminService.cs",
@@ -291,12 +293,11 @@
               "RelativeToolTip": "szovalwpf\\Services\\AdminService.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAA5wDQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T18:50:30.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-03T18:50:30.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "RendelesFilter.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\RendelesFilter.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\RendelesFilter.cs",
@@ -304,12 +305,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\RendelesFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:50:47.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T18:50:47.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Rendeles.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Rendeles.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Rendeles.cs",
@@ -317,12 +317,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\Rendeles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:06:02.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T00:06:02.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FelhasznaloFilter.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\FelhasznaloFilter.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\FelhasznaloFilter.cs",
@@ -330,12 +329,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\FelhasznaloFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:50:02.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T18:50:02.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Felhasznalo.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Felhasznalo.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Felhasznalo.cs",
@@ -343,12 +341,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\Felhasznalo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:03:26.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T00:03:26.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CipoMeret.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\CipoMeret.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\CipoMeret.cs",
@@ -356,12 +353,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\CipoMeret.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T21:36:02.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T21:36:02.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CipoKep.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\CipoKep.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\CipoKep.cs",
@@ -369,12 +365,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\CipoKep.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T21:36:46.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T21:36:46.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CipoFilter.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\CipoFilter.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\CipoFilter.cs",
@@ -382,12 +377,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\CipoFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:29:30.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-28T20:29:30.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Cipo.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Cipo.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Cipo.cs",
@@ -395,12 +389,11 @@
               "RelativeToolTip": "szovalwpf\\Models\\Cipo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T23:41:45.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T23:41:45.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Admin.cs",
@@ -408,8 +401,7 @@
               "RelativeToolTip": "szovalwpf\\Models\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T18:37:26.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T18:37:26.317Z"
             },
             {
               "$type": "Document",
@@ -446,19 +438,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AdminCreateView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\AdminCreateView.xaml",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml",
               "RelativeToolTip": "szovalwpf\\Views\\AdminCreateView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-04T19:59:25.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T19:59:25.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CipokView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\CipokView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\CipokView.xaml.cs",
@@ -466,12 +457,11 @@
               "RelativeToolTip": "szovalwpf\\Views\\CipokView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T23:47:24.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T23:47:24.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AdminCreateView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\AdminCreateView.xaml.cs",
@@ -479,12 +469,11 @@
               "RelativeToolTip": "szovalwpf\\Views\\AdminCreateView.xaml.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwBIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T20:01:18.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T20:01:18.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SzuresView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\SzuresView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\SzuresView.xaml.cs",
@@ -492,8 +481,7 @@
               "RelativeToolTip": "szovalwpf\\Views\\SzuresView.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAewBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:39:30.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T19:39:30.804Z"
             },
             {
               "$type": "Document",
@@ -520,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RendelesekView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\RendelesekView.xaml.cs",
@@ -528,20 +516,18 @@
               "RelativeToolTip": "szovalwpf\\Views\\RendelesekView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:07:16.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T00:07:16.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RendelesekView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\RendelesekView.xaml",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml",
               "RelativeToolTip": "szovalwpf\\Views\\RendelesekView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-16T00:07:07.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T00:07:07.685Z"
             },
             {
               "$type": "Document",
@@ -556,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "FelhasznalokView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\FelhasznalokView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\FelhasznalokView.xaml",
@@ -578,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\Login.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\Login.xaml.cs",
@@ -586,8 +572,7 @@
               "RelativeToolTip": "szovalwpf\\Views\\Login.xaml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T18:42:31.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T18:42:31.587Z"
             },
             {
               "$type": "Document",
@@ -598,8 +583,7 @@
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\App.xaml",
               "RelativeToolTip": "szovalwpf\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T18:43:34.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T18:43:34.17Z"
             },
             {
               "$type": "Document",
@@ -635,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\MainWindow.xaml.cs",
@@ -643,12 +627,7 @@
               "RelativeToolTip": "szovalwpf\\MainWindow.xaml.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T23:34:11.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "WhenOpened": "2026-01-15T23:34:11.921Z"
             }
           ]
         }

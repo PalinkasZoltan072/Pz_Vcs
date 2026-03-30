@@ -3,76 +3,72 @@
   "WorkspaceRootPath": "D:\\Pz_Vcs\\WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\felhasznalokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\felhasznalokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\felhasznalokview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\felhasznalokview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\cipocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\cipocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\rendelesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\rendelesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\admincreateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\admincreateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\cipokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\cipokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\rendelesekview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\rendelesekview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\szuresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\szuresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\szuresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\szuresview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\felhasznaloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\felhasznaloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\rendelesekview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\rendelesekview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\ciposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\ciposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\rendelesekview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\rendelesekview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\felhasznalokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\felhasznalokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\cipokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\cipokview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\admincreateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\admincreateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\admincreateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\admincreateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\rendeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\rendeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\felhasznalofilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\felhasznalofilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\rendelesfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\rendelesfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\cipomeret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\cipomeret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\cipokep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\cipokep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\cipofilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,16 +83,40 @@
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\rendelesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\rendelesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\felhasznaloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\felhasznaloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\ciposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\ciposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\felhasznalokview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\felhasznalokview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\rendelescontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|solutionrelative:cipoboltadmin.tests\\felhasznalocontroltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\cipoboltadmin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\cipoboltadmin.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\admincreateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\admincreateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\rendelesekview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\views\\rendelesekview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\views\\cipokview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -113,26 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\rendelesfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\rendelesfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\rendeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\rendeles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\cipomeret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\cipomeret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\models\\cipokep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\models\\cipokep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|d:\\pz_vcs\\wpf\\szovalwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D17A39E-287B-4041-9E4C-93F6D04968D2}|szovalwpf\\CipoBoltAdmin.csproj|solutionrelative:szovalwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29708B51-CD43-439C-80A1-51D15C8055B4}|CipoBoltAdmin.Tests\\CipoBoltAdmin.Tests.csproj|d:\\pz_vcs\\wpf\\cipoboltadmin.tests\\cipoboltadmin.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -164,17 +164,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "FelhasznalokView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\FelhasznalokView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\FelhasznalokView.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\FelhasznalokView.xaml.cs",
               "RelativeToolTip": "szovalwpf\\Views\\FelhasznalokView.xaml.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAowHwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T00:04:48.109Z",
               "IsPinned": true,
@@ -182,20 +182,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "FelhasznaloService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\FelhasznaloService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\FelhasznaloService.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\FelhasznaloService.cs",
               "RelativeToolTip": "szovalwpf\\Services\\FelhasznaloService.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAUwJcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T07:31:31.063Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "szovalwpf\\ClassDiagram1.cd",
@@ -206,31 +207,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\ApiClient.cs",
               "RelativeDocumentMoniker": "szovalwpf\\ApiClient.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\ApiClient.cs",
               "RelativeToolTip": "szovalwpf\\ApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:00:03.134Z"
+              "WhenOpened": "2026-03-03T19:00:03.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CipoControlTests.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\CipoControlTests.cs",
               "RelativeDocumentMoniker": "CipoBoltAdmin.Tests\\CipoControlTests.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\CipoControlTests.cs",
               "RelativeToolTip": "CipoBoltAdmin.Tests\\CipoControlTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:17:23.198Z"
+              "WhenOpened": "2026-02-04T19:17:23.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 27,
               "Title": "FelhasznaloControlTests.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\FelhasznaloControlTests.cs",
               "RelativeDocumentMoniker": "CipoBoltAdmin.Tests\\FelhasznaloControlTests.cs",
@@ -242,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 26,
               "Title": "RendelesControlTests.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\CipoBoltAdmin.Tests\\RendelesControlTests.cs",
               "RelativeDocumentMoniker": "CipoBoltAdmin.Tests\\RendelesControlTests.cs",
@@ -254,43 +257,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "RendelesService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\RendelesService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\RendelesService.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\RendelesService.cs",
               "RelativeToolTip": "szovalwpf\\Services\\RendelesService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAwIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T19:25:03.892Z"
+              "WhenOpened": "2026-01-25T19:25:03.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "CipoService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\CipoService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\CipoService.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\CipoService.cs",
               "RelativeToolTip": "szovalwpf\\Services\\CipoService.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAUwCsBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAYwAUBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T18:22:54.61Z"
+              "WhenOpened": "2026-01-25T18:22:54.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "AdminService.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Services\\AdminService.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Services\\AdminService.cs",
               "RelativeToolTip": "szovalwpf\\Services\\AdminService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAA5wDQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T18:50:30.113Z"
+              "WhenOpened": "2026-03-03T18:50:30.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 13,
               "Title": "RendelesFilter.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\RendelesFilter.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\RendelesFilter.cs",
@@ -298,23 +304,25 @@
               "RelativeToolTip": "szovalwpf\\Models\\RendelesFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:50:47.591Z"
+              "WhenOpened": "2026-02-04T18:50:47.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 11,
               "Title": "Rendeles.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Rendeles.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Rendeles.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Rendeles.cs",
               "RelativeToolTip": "szovalwpf\\Models\\Rendeles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:06:02.607Z"
+              "WhenOpened": "2026-01-16T00:06:02.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "FelhasznaloFilter.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\FelhasznaloFilter.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\FelhasznaloFilter.cs",
@@ -322,11 +330,12 @@
               "RelativeToolTip": "szovalwpf\\Models\\FelhasznaloFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T18:50:02.269Z"
+              "WhenOpened": "2026-02-04T18:50:02.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Felhasznalo.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Felhasznalo.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Felhasznalo.cs",
@@ -334,11 +343,12 @@
               "RelativeToolTip": "szovalwpf\\Models\\Felhasznalo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:03:26.699Z"
+              "WhenOpened": "2026-01-16T00:03:26.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 15,
               "Title": "CipoMeret.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\CipoMeret.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\CipoMeret.cs",
@@ -346,11 +356,12 @@
               "RelativeToolTip": "szovalwpf\\Models\\CipoMeret.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T21:36:02.413Z"
+              "WhenOpened": "2026-03-12T21:36:02.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 16,
               "Title": "CipoKep.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\CipoKep.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\CipoKep.cs",
@@ -358,11 +369,12 @@
               "RelativeToolTip": "szovalwpf\\Models\\CipoKep.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T21:36:46.563Z"
+              "WhenOpened": "2026-03-12T21:36:46.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "CipoFilter.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\CipoFilter.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\CipoFilter.cs",
@@ -370,23 +382,25 @@
               "RelativeToolTip": "szovalwpf\\Models\\CipoFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:29:30.33Z"
+              "WhenOpened": "2026-01-28T20:29:30.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Cipo.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Cipo.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Cipo.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Cipo.cs",
               "RelativeToolTip": "szovalwpf\\Models\\Cipo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T23:41:45.509Z"
+              "WhenOpened": "2026-01-15T23:41:45.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Models\\Admin.cs",
@@ -394,11 +408,12 @@
               "RelativeToolTip": "szovalwpf\\Models\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T18:37:26.317Z"
+              "WhenOpened": "2026-01-18T18:37:26.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "CipoBoltAdmin",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\CipoBoltAdmin.csproj",
               "RelativeDocumentMoniker": "szovalwpf\\CipoBoltAdmin.csproj",
@@ -431,14 +446,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "AdminCreateView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\AdminCreateView.xaml",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml",
               "RelativeToolTip": "szovalwpf\\Views\\AdminCreateView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-04T19:59:25.665Z"
+              "WhenOpened": "2026-03-04T19:59:25.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -448,37 +464,40 @@
               "RelativeDocumentMoniker": "szovalwpf\\Views\\CipokView.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\CipokView.xaml.cs",
               "RelativeToolTip": "szovalwpf\\Views\\CipokView.xaml.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAmwIUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T23:47:24.682Z"
+              "WhenOpened": "2026-01-15T23:47:24.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AdminCreateView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\AdminCreateView.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\AdminCreateView.xaml.cs",
               "RelativeToolTip": "szovalwpf\\Views\\AdminCreateView.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwDkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T20:01:18.117Z"
+              "WhenOpened": "2026-03-04T20:01:18.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "SzuresView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\SzuresView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\SzuresView.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\SzuresView.xaml.cs",
               "RelativeToolTip": "szovalwpf\\Views\\SzuresView.xaml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAWwGwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T19:39:30.804Z"
+              "WhenOpened": "2026-01-26T19:39:30.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "SzuresView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\SzuresView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\SzuresView.xaml",
@@ -501,30 +520,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "RendelesekView.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\RendelesekView.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml.cs",
               "RelativeToolTip": "szovalwpf\\Views\\RendelesekView.xaml.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:07:16.116Z"
+              "WhenOpened": "2026-01-16T00:07:16.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 5,
               "Title": "RendelesekView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\RendelesekView.xaml",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\RendelesekView.xaml",
               "RelativeToolTip": "szovalwpf\\Views\\RendelesekView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-16T00:07:07.685Z"
+              "WhenOpened": "2026-01-16T00:07:07.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "CipokView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\CipokView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\CipokView.xaml",
@@ -535,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "FelhasznalokView.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\FelhasznalokView.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\FelhasznalokView.xaml",
@@ -546,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Login.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\Login.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\Login.xaml",
@@ -557,15 +578,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\Login.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\Views\\Login.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\Views\\Login.xaml.cs",
               "RelativeToolTip": "szovalwpf\\Views\\Login.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T18:42:31.587Z"
+              "WhenOpened": "2026-01-18T18:42:31.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -576,7 +598,8 @@
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\App.xaml",
               "RelativeToolTip": "szovalwpf\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T18:43:34.17Z"
+              "WhenOpened": "2026-01-18T18:43:34.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -601,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "szovalwpf\\MainWindow.xaml",
@@ -612,15 +635,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Pz_Vcs\\WPF\\szovalwpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "szovalwpf\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Pz_Vcs\\WPF\\szovalwpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "szovalwpf\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T23:34:11.921Z"
+              "WhenOpened": "2026-01-15T23:34:11.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

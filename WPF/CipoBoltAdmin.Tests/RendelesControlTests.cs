@@ -81,7 +81,7 @@ namespace CipoBoltAdmin.Tests
         [Test]
         public async Task UpdateRendeles_Allapot_ShouldReturnTrue()
         {
-            // 1. Létrehozunk egy rendelést egyedi mérettel
+            // Létrehozunk egy rendelést egyedi mérettel
             await UserLogin();
             int randomMeret = new Random().Next(38, 47);
 
@@ -99,7 +99,7 @@ namespace CipoBoltAdmin.Tests
             using var doc = JsonDocument.Parse(responseString);
             int createdId = doc.RootElement.GetProperty("id").GetInt32();
 
-            // 2. Admin belépés és módosítás
+            // Admin belépés és módosítás
             ApiClient.ClearToken();
             await admin.LoginAsync("admin@gmail.com", "admin123");
 
@@ -110,7 +110,7 @@ namespace CipoBoltAdmin.Tests
         [Test]
         public async Task DeleteRendeles_ExistingId_ShouldReturnTrue()
         {
-            // 1. Létrehozunk egy rendelést törléshez
+           
             await UserLogin();
             int randomMeret = new Random().Next(38, 47);
 
@@ -127,7 +127,7 @@ namespace CipoBoltAdmin.Tests
             using var doc = JsonDocument.Parse(responseString);
             int createdId = doc.RootElement.GetProperty("id").GetInt32();
 
-            // 2. Admin belépés és törlés
+            
             ApiClient.ClearToken();
             await admin.LoginAsync("admin@gmail.com", "admin123");
 

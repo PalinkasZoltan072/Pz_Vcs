@@ -18,19 +18,19 @@ namespace CipoBoltAdmin.Tests
         [SetUp]
         public async Task Setup()
         {
-            // Token törlése a biztonság kedvéért
+          
             ApiClient.ClearToken();
 
             admin = new AdminService();
 
-            // 1. Megpróbálunk belépni a seedelt adminnal
+            
             bool ok = await admin.LoginAsync("admin@gmail.com", "admin123");
 
-            // 2. HA NINCS ILYEN ADMIN, a teszt automatikusan létrehozza!
+            
             if (!ok)
             {
                 await admin.RegisterAsync("admin", "admin@gmail.com", "admin123");
-                // Újra megpróbálunk belépni
+                
                 ok = await admin.LoginAsync("admin@gmail.com", "admin123");
             }
 
@@ -40,9 +40,7 @@ namespace CipoBoltAdmin.Tests
              control = new FelhasznaloService();
         }
 
-        // =========================
-        // GET TESZTEK
-        // =========================
+        
 
         [Test]
         public async Task LoadFelhasznalokAsync_ShouldReturnList()
@@ -61,9 +59,7 @@ namespace CipoBoltAdmin.Tests
             Assert.AreEqual(HttpStatusCode.OK, res.StatusCode);
         }
 
-        // =========================
-        // DELETE TESZT (HIBÁS)
-        // =========================
+       
 
         [Test]
         public async Task DeleteFelhasznaloAsync_InvalidId_ShouldReturnFalse()
@@ -81,9 +77,7 @@ namespace CipoBoltAdmin.Tests
             Assert.AreEqual(HttpStatusCode.NotFound, res.StatusCode);
         }
 
-        // =========================
-        // PATCH TESZTEK
-        // =========================
+        
 
         [Test]
         public async Task PatchSingleFieldAsync_ValidField_ShouldReturnTrue()
@@ -144,9 +138,7 @@ namespace CipoBoltAdmin.Tests
             Assert.AreEqual(HttpStatusCode.OK, res.StatusCode);
         }
 
-        // =========================
-        // FILTER TESZTEK
-        // =========================
+        
 
         [Test]
         public async Task GetFelhasznalokFilteredAsync_FilterByEmail_ShouldReturnList()
@@ -172,9 +164,7 @@ namespace CipoBoltAdmin.Tests
             Assert.IsNotNull(result);
         }
 
-        // =========================
-        // FULL CRUD TESZT
-        // =========================
+        
         [Test]
         public async Task Felhasznalo_FullCrud_Test()
         {

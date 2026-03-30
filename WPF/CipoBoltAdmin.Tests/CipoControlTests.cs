@@ -57,7 +57,7 @@ namespace CipoBoltAdmin.Tests
         [Test]
         public async Task CreateCipoAsync_ValidData_ShouldReturnTrue()
         {
-            // 1. Létrehozzuk a cipõt
+            
             var result = await control.CreateCipoAsync(
                 "TesztCipo",
                 "Nike",
@@ -65,16 +65,16 @@ namespace CipoBoltAdmin.Tests
                 "focicipõ"
             );
 
-            // 2. Ellenõrizzük, hogy sikeres volt-e a létrehozás
+            
             Assert.IsNotNull(result);
             Assert.AreEqual("TesztCipo", result.Nev);
 
-            // 3. TAKARÍTÁS (Cleanup): Töröljük ki az adatbázisból, hogy ne jelenjen meg az Admin felületen!
+            
             bool isDeleted = await control.DeleteCipoAsync(result.Id);
             Assert.IsTrue(isDeleted, "A tesztcipõ törlése nem sikerült a teszt végén!");
         }
 
-        // Hibás input teszt (perem eset)
+        
         [Test]
         public async Task CreateCipoAsync_InvalidData_ShouldReturnFalse()
         {
@@ -85,13 +85,11 @@ namespace CipoBoltAdmin.Tests
                 ""
             );
 
-            // Hibás adatnál a backend null-t kell hogy visszaadjon
+            
             Assert.IsNull(result);
         }
 
-        // ============================
-        // UPDATE TESZT
-        // ============================
+        
 
         [Test]
         public async Task UpdateArAsync_ExistingId_ShouldReturnTrue()
@@ -101,7 +99,7 @@ namespace CipoBoltAdmin.Tests
             Assert.IsTrue(result);
         }
 
-        // hibás ID teszt
+        
         [Test]
         public async Task UpdateArAsync_InvalidId_ShouldReturnFalse()
         {
@@ -110,13 +108,11 @@ namespace CipoBoltAdmin.Tests
             Assert.IsFalse(result);
         }
 
-        // ============================
-        // DELETE TESZT
-        // ============================
+        
         [Test]
         public async Task DeleteCipoAsync_ValidId_ShouldReturnTrue()
         {
-            // 1. Létrehozunk egy teszt cipõt (Méret nélkül)
+            
             var createdCipo = await control.CreateCipoAsync(
                 "DeleteTesztCipo",
                 "Adidas",
@@ -126,14 +122,14 @@ namespace CipoBoltAdmin.Tests
 
             Assert.IsNotNull(createdCipo);
 
-            // 2. Töröljük rögtön a visszakapott ID alapján
+            
             bool deleted = await control.DeleteCipoAsync(createdCipo.Id);
 
-            // 3. Ellenõrizzük a törlést
+            
             Assert.IsTrue(deleted);
         }
 
-        // rossz delete teszt
+     
         [Test]
         public async Task DeleteCipoAsync_InvalidId_ShouldReturnFalse()
         {
@@ -142,9 +138,8 @@ namespace CipoBoltAdmin.Tests
             Assert.IsFalse(result);
         }
 
-        // ============================
-        // FILTER TESZT
-        // ============================
+        
+        
 
         [Test]
         public async Task GetCipokFilteredAsync_FilterByMarka_ShouldReturnList()
@@ -160,7 +155,7 @@ namespace CipoBoltAdmin.Tests
             Assert.IsInstanceOf<List<Cipo>>(result);
         }
 
-        // üres filter teszt
+        
         [Test]
         public async Task GetCipokFilteredAsync_EmptyFilter_ShouldReturnList()
         {
